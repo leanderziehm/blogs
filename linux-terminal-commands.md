@@ -28,10 +28,6 @@ grep -r --exclude-dir=node_modules "your_string" .
 
 ### Find and replace
 
-```
-sed 's/foo/bar/g'
-```
-
 ## Find
 
 search files:
@@ -39,8 +35,6 @@ search files:
 ```
 find . -type f -name "name*"
 ```
-
-
 
 search directories:
 
@@ -57,6 +51,12 @@ find . -type d -name "name*" | sort
 ```
 
 
+
+## Find and replace
+
+```
+sed 's/foo/bar/g'
+```
 
 ## Ports
 
@@ -281,13 +281,23 @@ systemctl suspend
 systemctl hibernate
 ```
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ***
-
-
-
-
-
-
 
 
 

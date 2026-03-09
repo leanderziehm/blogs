@@ -1,7 +1,5 @@
 # Network Devices
 
-
-
 options to discover all hosts in the current network:
 
 ```
@@ -23,4 +21,22 @@ get all open ports of device with it's ip:
 ```
 sudo nmap -p- -sS -sV -O -A -T4 100.100.100.50/24
 ```
+
+
+
+
+
+
+
+
+
+
+
+***
+
+
+
+
+
+
 
