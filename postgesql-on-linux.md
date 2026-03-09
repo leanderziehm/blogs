@@ -37,7 +37,7 @@ psql -U myuser -d mydb
 change postgres admin password:
 
 ```
-ALTER USER postgres WITH PASSWORD 'newpassword';
+sudo -iu postgres psql -c "ALTER USER postgres WITH PASSWORD 'newpassword';"
 ```
 
 
