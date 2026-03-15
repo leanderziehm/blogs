@@ -23,7 +23,7 @@ Think of this as a personal mini-wiki: a place where I document useful informati
 * [podman-replacing-docker.md](podman-replacing-docker.md "mention")
 * [linux-package-managers.md](linux-package-managers.md "mention")
 * [tmux.md](tmux.md "mention")
+* [neovim.md](neovim.md "mention")
 * [linux-topics-todo.md](linux-topics-todo.md "mention")
-*
 
 ***
