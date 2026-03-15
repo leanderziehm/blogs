@@ -11,3 +11,4 @@
 * [Linux Package Managers](linux-package-managers.md)
 * [Linux Topics Todo](linux-topics-todo.md)
 * [Tmux](tmux.md)
+* [NeoVim](neovim.md)
