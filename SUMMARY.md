@@ -14,4 +14,8 @@
 * [NeoVim](neovim.md)
 * [Debugging Javascript: Chrome Devtools](debugging-javascript-chrome-devtools.md)
 * [HTTP Headers Security](http-headers-security.md)
-* [Javascript](javascript.md)
+
+## programming-languages
+
+* [Bash](programming-languages/bash.md)
+* [Javascript](programming-languages/javascript.md)
