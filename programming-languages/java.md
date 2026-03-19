@@ -54,3 +54,11 @@ import java.util.ArrayList;
 
 
 
+Keyword:
+
+`var` for type inference&#x20;
+
+
+
+
+

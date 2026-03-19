@@ -17,6 +17,6 @@
 
 ## programming-languages
 
-* [Bash](programming-languages/bash.md)
-* [Javascript](programming-languages/javascript.md)
 * [Java](programming-languages/java.md)
+* [Javascript](programming-languages/javascript.md)
+* [Bash](programming-languages/bash.md)
