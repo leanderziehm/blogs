@@ -24,9 +24,9 @@ long
 
 Non-Primitive (Reference) Data Types:
 
-String
+String has .length()  and is not itterable in for each loop?
 
-Array &#x20;
+Array has .length
 
 {% hint style="info" icon="question" %}
 arrays can be null?
@@ -62,6 +62,12 @@ import java.util.ArrayDeque;
 Keyword:
 
 `var` for type inference  (added in java 10 )
+
+
+
+
+
+
 
 
 
