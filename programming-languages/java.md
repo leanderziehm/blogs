@@ -26,7 +26,11 @@ Non-Primitive (Reference) Data Types:
 
 String
 
-Array
+Array &#x20;
+
+{% hint style="info" icon="question" %}
+arrays can be null?
+{% endhint %}
 
 
 
@@ -48,15 +52,20 @@ public class Solution{
 
 
 
+```
 import java.util.ArrayList;
-
-
+import java.util.ArrayDeque;
+```
 
 
 
 Keyword:
 
 `var` for type inference  (added in java 10 )
+
+
+
+
 
 
 
