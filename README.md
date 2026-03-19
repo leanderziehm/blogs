@@ -16,14 +16,14 @@ Think of this as a personal mini-wiki: a place where I document useful informati
 
 * [network-devices.md](network-devices.md "mention")
 * [linux-terminal-commands.md](linux-terminal-commands.md "mention")
-* [ssh.md](ssh.md "mention")
+* [ssh.md](cli-terminal/ssh.md "mention")
 * [linux-users.md](linux-users.md "mention")
 * [postgesql-on-linux.md](postgesql-on-linux.md "mention")
 * [nginx-on-linux.md](nginx-on-linux.md "mention")
 * [podman-replacing-docker.md](podman-replacing-docker.md "mention")
 * [linux-package-managers.md](linux-package-managers.md "mention")
-* [tmux.md](tmux.md "mention")
-* [neovim.md](neovim.md "mention")
+* [tmux.md](cli-terminal/tmux.md "mention")
+* [neovim.md](cli-terminal/neovim.md "mention")
 * [linux-topics-todo.md](linux-topics-todo.md "mention")
 
 ***

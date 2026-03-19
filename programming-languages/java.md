@@ -1,16 +1,16 @@
 # Java
 
-datatypes:
+### datatypes:
 
-boolean
+boolean Boolean
 
-int
+int Integer
 
-float
+float Float
 
-double
+double Double
 
-char
+char Character
 
 
 
@@ -22,7 +22,7 @@ long
 
 
 
-Non-Primitive (Reference) Data Types:
+#### Non-Primitive (Reference) Data Types:
 
 String has .length()  and is not itterable in for each loop?
 
@@ -50,20 +50,32 @@ public class Solution{
 
 
 
-
-
-```
-import java.util.ArrayList;
-import java.util.ArrayDeque;
-```
-
-
-
 Keyword:
 
 `var` for type inference  (added in java 10 )
 
 
+
+### Collections:
+
+```
+import java.util.ArrayList;
+import java.util.ArrayDeque;
+import java.util.HashSet;
+import java.util.HashMap;
+```
+
+
+
+#### Map:
+
+getOrDefault(key,default)
+
+get(key)
+
+push(key,value)
+
+equals(map2)
 
 
 
