@@ -56,7 +56,7 @@ import java.util.ArrayList;
 
 Keyword:
 
-`var` for type inference&#x20;
+`var` for type inference  (added in java 10 )
 
 
 
