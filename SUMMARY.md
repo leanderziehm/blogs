@@ -24,3 +24,7 @@
 * [Java](programming-languages/java.md)
 * [Javascript](programming-languages/javascript.md)
 * [Bash](programming-languages/bash.md)
+
+***
+
+* [Keyboard Shortcuts](keyboard-shortcuts.md)
