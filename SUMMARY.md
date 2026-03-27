@@ -11,6 +11,7 @@
 * [Linux Topics Todo](linux-topics-todo.md)
 * [Debugging Javascript: Chrome Devtools](debugging-javascript-chrome-devtools.md)
 * [HTTP Headers Security](http-headers-security.md)
+* [Keyboard Shortcuts](keyboard-shortcuts.md)
 
 ## CLI Terminal
 
@@ -24,7 +25,3 @@
 * [Java](programming-languages/java.md)
 * [Javascript](programming-languages/javascript.md)
 * [Bash](programming-languages/bash.md)
-
-***
-
-* [Keyboard Shortcuts](keyboard-shortcuts.md)

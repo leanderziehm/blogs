@@ -25,5 +25,6 @@ Think of this as a personal mini-wiki: a place where I document useful informati
 * [tmux.md](cli-terminal/tmux.md "mention")
 * [neovim.md](cli-terminal/neovim.md "mention")
 * [linux-topics-todo.md](linux-topics-todo.md "mention")
+* [keyboard-shortcuts.md](keyboard-shortcuts.md "mention")
 
 ***
