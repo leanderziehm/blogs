@@ -6,13 +6,14 @@
 ## programming-languages
 
 * [Typescript](programming-languages/typescript/README.md)
-  * [Javascript](programming-languages/typescript/javascript.md)
-  * [Other](programming-languages/typescript/other.md)
-  * [Java](programming-languages/typescript/java.md)
   * [React](programming-languages/typescript/react.md)
   * [Node.js Express](programming-languages/typescript/node.js-express.md)
+  * [Javascript](programming-languages/typescript/javascript.md)
+  * [Testing](programming-languages/typescript/testing.md)
+  * [Other](programming-languages/typescript/other.md)
 * [SQL](programming-languages/sql.md)
-* [Java](programming-languages/java.md)
+* [Java](programming-languages/java/README.md)
+  * [Spring Boot](programming-languages/java/spring-boot.md)
 * [Python](programming-languages/python.md)
 * [Other](programming-languages/other.md)
 
