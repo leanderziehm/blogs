@@ -1,14 +1,24 @@
 # Node.js Express
 
+
+
+
+
+
+
+[https://medium.com/@gabrieldrouin/node-js-2025-guide-how-to-setup-express-js-with-typescript-eslint-and-prettier-b342cd21c30d](https://medium.com/@gabrieldrouin/node-js-2025-guide-how-to-setup-express-js-with-typescript-eslint-and-prettier-b342cd21c30d)
+
 ```
 npm init -y
-npm i express
 npm i -D typescript @types/node @types/express
 npm i -D @tsconfig/node24
 npm i -D tsx
 npm i -D prettier
 npm i -D eslint
 npm i -D vitest
+
+npm i express
+npm i -D @types/express
 ```
 
 change type to module:
@@ -52,16 +62,22 @@ npx tsc
 npx tsx --watch src/index.ts
 ```
 
-
-
-
-
-
-
-
-
 ## Prettier
 
 echo 'dist' > .prettierignore
 
 echo '{}' > .prettierrc
+
+
+
+
+
+## Postgres
+
+```
+npm install pg
+npm i -D @types/pg
+```
+
+
+
