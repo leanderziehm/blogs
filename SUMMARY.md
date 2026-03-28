@@ -21,6 +21,8 @@
 
 * [Database Normalization](databases/database-normalization.md)
 * [Databases](databases/databases.md)
+* [Postgres](databases/postgres/README.md)
+  * [Patroni](databases/postgres/patroni.md)
 
 ## CLI Terminal
 
