@@ -3,13 +3,6 @@
 * [Welcome to My Notes](README.md)
 * [Keyboard Shortcuts](keyboard-shortcuts.md)
 
-## CLI Terminal
-
-* [neovim](cli-terminal/neovim.md)
-* [git](cli-terminal/git.md)
-* [tmux](cli-terminal/tmux.md)
-* [ssh](cli-terminal/ssh.md)
-
 ## programming-languages
 
 * [Typescript](programming-languages/typescript/README.md)
@@ -20,15 +13,12 @@
 * [Bash](programming-languages/bash.md)
 * [Python](programming-languages/python.md)
 
-## AI
+## CLI Terminal
 
-* [AI Web App Creators](ai/ai-web-app-creators.md)
-
-## Networking
-
-* [Network Devices](networking/network-devices.md)
-* [HTTP Headers Security](networking/http-headers-security.md)
-* [Page 1](networking/page-1.md)
+* [neovim](cli-terminal/neovim.md)
+* [git](cli-terminal/git.md)
+* [tmux](cli-terminal/tmux.md)
+* [ssh](cli-terminal/ssh.md)
 
 ## System-Administration
 
@@ -39,3 +29,13 @@
 * [Postgesql on Linux](system-administration/postgesql-on-linux.md)
 * [Linux Users](system-administration/linux-users.md)
 * [Research](system-administration/research.md)
+
+## Networking
+
+* [Network Devices](networking/network-devices.md)
+* [HTTP Headers Security](networking/http-headers-security.md)
+* [Page 1](networking/page-1.md)
+
+## AI
+
+* [AI Web App Creators](ai/ai-web-app-creators.md)
