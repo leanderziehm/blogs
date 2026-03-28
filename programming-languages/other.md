@@ -1,4 +1,8 @@
-# Bash
+# Other
+
+
+
+## Bash
 
 variable assignment
 

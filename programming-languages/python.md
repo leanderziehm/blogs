@@ -6,6 +6,13 @@
 
 ```
 from fastapi.openapi.docs import get_swagger_ui_html
+
+...
+
+@app.get("/", include_in_schema=False)
+async def custom_swagger_ui():
+    return get_swagger_ui_html(openapi_url="/openapi.json", title="API Docs")
+
 ```
 
 

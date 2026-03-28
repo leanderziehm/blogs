@@ -10,8 +10,14 @@
   * [Other](programming-languages/typescript/other.md)
   * [Java](programming-languages/typescript/java.md)
 * [SQL](programming-languages/sql.md)
-* [Bash](programming-languages/bash.md)
+* [Java](programming-languages/java.md)
 * [Python](programming-languages/python.md)
+* [Other](programming-languages/other.md)
+
+## Databases
+
+* [Database Normalization](databases/database-normalization.md)
+* [Databases](databases/databases.md)
 
 ## CLI Terminal
 
@@ -34,7 +40,7 @@
 
 * [Network Devices](networking/network-devices.md)
 * [HTTP Headers Security](networking/http-headers-security.md)
-* [Page 1](networking/page-1.md)
+* [ISO Model vs TCP IP Model](networking/iso-model-vs-tcp-ip-model.md)
 
 ## AI
 
