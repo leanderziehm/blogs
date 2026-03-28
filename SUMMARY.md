@@ -1,16 +1,6 @@
 # Table of contents
 
-* [Welcome to My Blog](README.md)
-* [Network Devices](network-devices.md)
-* [Linux Terminal Commands](linux-terminal-commands.md)
-* [Linux Users](linux-users.md)
-* [Postgesql on Linux](postgesql-on-linux.md)
-* [Nginx on Linux](nginx-on-linux.md)
-* [Podman replacing Docker](podman-replacing-docker.md)
-* [Linux Package Managers](linux-package-managers.md)
-* [Linux Topics Todo](linux-topics-todo.md)
-* [Debugging Javascript: Chrome Devtools](debugging-javascript-chrome-devtools.md)
-* [HTTP Headers Security](http-headers-security.md)
+* [Welcome to My Notes](README.md)
 * [Keyboard Shortcuts](keyboard-shortcuts.md)
 
 ## CLI Terminal
@@ -22,7 +12,30 @@
 
 ## programming-languages
 
-* [Java](programming-languages/java.md)
-* [Javascript](programming-languages/javascript.md)
+* [Typescript](programming-languages/typescript/README.md)
+  * [Javascript](programming-languages/typescript/javascript.md)
+  * [Other](programming-languages/typescript/other.md)
+  * [Java](programming-languages/typescript/java.md)
+* [SQL](programming-languages/sql.md)
 * [Bash](programming-languages/bash.md)
 * [Python](programming-languages/python.md)
+
+## AI
+
+* [AI Web App Creators](ai/ai-web-app-creators.md)
+
+## Networking
+
+* [Network Devices](networking/network-devices.md)
+* [HTTP Headers Security](networking/http-headers-security.md)
+* [Page 1](networking/page-1.md)
+
+## System-Administration
+
+* [Podman replacing Docker](system-administration/podman-replacing-docker.md)
+* [Linux Package Managers](system-administration/linux-package-managers.md)
+* [Linux Terminal Commands](system-administration/linux-terminal-commands.md)
+* [Nginx on Linux](system-administration/nginx-on-linux.md)
+* [Postgesql on Linux](system-administration/postgesql-on-linux.md)
+* [Linux Users](system-administration/linux-users.md)
+* [Research](system-administration/research.md)

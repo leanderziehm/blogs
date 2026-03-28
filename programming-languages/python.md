@@ -2,25 +2,23 @@
 
 
 
+## Fastapi
+
+```
+from fastapi.openapi.docs import get_swagger_ui_html
+```
+
+
+
+
+
 ## Pandas&#x20;
-
-
 
 ```
 import pandas as pd
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 ```
-
-
-
-
-
-
-
-
-
-
 
 ## VsCode Debugger settings&#x20;
 
