@@ -1,5 +1,19 @@
 # Other
 
+## Package manager
+
+|      |                 |                  |
+| ---- | --------------- | ---------------- |
+| npm  | built in        |                  |
+| pnpm | less redownload | current favorite |
+| yarn |                 |                  |
+
+
+
+
+
+
+
 ### NestJS Framework
 
 ```

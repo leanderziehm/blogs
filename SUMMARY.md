@@ -9,6 +9,8 @@
   * [Javascript](programming-languages/typescript/javascript.md)
   * [Other](programming-languages/typescript/other.md)
   * [Java](programming-languages/typescript/java.md)
+  * [React](programming-languages/typescript/react.md)
+  * [Node.js Express](programming-languages/typescript/node.js-express.md)
 * [SQL](programming-languages/sql.md)
 * [Java](programming-languages/java.md)
 * [Python](programming-languages/python.md)
