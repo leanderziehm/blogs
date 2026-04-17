@@ -1,6 +1,12 @@
 # Keyboard Shortcuts
 
-##
+## Eclipse
+
+| Keyboard         | Effect        |
+| ---------------- | ------------- |
+| Ctrl + Shift + O | Clean imports |
+| Ctrl + I         | indent code   |
+|                  |               |
 
 
 
