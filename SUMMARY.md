@@ -3,6 +3,11 @@
 * [Welcome to My Notes](README.md)
 * [Keyboard Shortcuts](keyboard-shortcuts.md)
 
+## Projects
+
+* [Project: Personal Tracker](projects/project-personal-tracker.md)
+* [Project: Countdown](projects/project-countdown.md)
+
 ## programming-languages
 
 * [Typescript](programming-languages/typescript/README.md)
@@ -40,6 +45,7 @@
 * [Postgesql on Linux](system-administration/postgesql-on-linux.md)
 * [Linux Users](system-administration/linux-users.md)
 * [Research](system-administration/research.md)
+* [Debian Package Sizes](system-administration/debian-package-sizes.md)
 
 ## Networking
 
