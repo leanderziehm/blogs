@@ -1,4 +1,4 @@
-# Podman replacing Docker
+# Podman
 
 I liked docker but when researching more about securety the systematic design of podman to be rootless by default thereby making it more secure against exploits won me over.
 
@@ -8,14 +8,18 @@ I liked docker but when researching more about securety the systematic design of
 sudo apt install podman
 ```
 
-or&#x20;
-
 ```
-sudo pacman -S podman
+sudo apt install podman-compose
 ```
 
 
 
-install:
+if you want smoother docker compatebility change the config to default to docker repos:
 
-podman-compose&#x20;
+```
+sudo vim /etc/containers/registries.conf
+```
+
+```
+unqualified-search-registries = ["docker.io"]
+```

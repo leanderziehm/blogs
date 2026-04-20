@@ -10,8 +10,6 @@ description: postgres version 16
 
 ```
 sudo apt install postgresql
-"or on arch"
-sudo pacman -S postgresql
 ```
 
 ## Expose Postgres Publicly

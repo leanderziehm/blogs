@@ -19,6 +19,7 @@
 * [SQL](programming-languages/sql.md)
 * [Java](programming-languages/java/README.md)
   * [Spring Boot](programming-languages/java/spring-boot.md)
+  * [Setup](programming-languages/java/setup.md)
 * [Python](programming-languages/python.md)
 * [Other](programming-languages/other.md)
 
@@ -37,15 +38,20 @@
 
 ## System-Administration
 
-* [Podman replacing Docker](system-administration/podman-replacing-docker.md)
-* [Linux Package Managers](system-administration/linux-package-managers.md)
-* [Linux Terminal Commands](system-administration/linux-terminal-commands.md)
-* [Nginx on Linux](system-administration/nginx-on-linux.md)
-* [Postgesql on Linux](system-administration/postgesql-on-linux.md)
-* [Linux Users](system-administration/linux-users.md)
-* [Research](system-administration/research.md)
-* [Debian Package Sizes](system-administration/debian-package-sizes.md)
-* [ssh](system-administration/ssh.md)
+* [Podman](system-administration/podman.md)
+* [Nginx](system-administration/nginx.md)
+* [Firewall](system-administration/firewall.md)
+
+## Linux
+
+* [Research](linux/research.md)
+* [Linux Package Managers](linux/linux-package-managers.md)
+* [Linux Terminal Commands](linux/linux-terminal-commands.md)
+* [Postgesql on Linux](linux/postgesql-on-linux.md)
+* [Linux Users](linux/linux-users.md)
+* [Debian Package Sizes](linux/debian-package-sizes.md)
+* [ssh](linux/ssh.md)
+* [Virtualization](linux/virtualization.md)
 
 ## Networking
 

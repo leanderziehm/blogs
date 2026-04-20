@@ -1,4 +1,12 @@
-# Nginx on Linux
+# Nginx
+
+install nginx:
+
+```
+sudo apt install nginx
+```
+
+activate nginx:
 
 ```
 nginx -v
@@ -7,38 +15,23 @@ sudo systemctl start nginx
 sudo systemctl enable nginx
 ```
 
-/etc/nginx/sites-available/\
-/etc/nginx/sites-enabled/
-
-```
-sudo vim /etc/nginx/sites-available/example.com
-```
-
-```
-sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/
-```
-
-```
-sudo nginx -t && sudo systemctl reload nginx
-```
-
-
-
 ## Certbot
 
-
-
 ```
-sudo apt install certbot python3-certbot-nginx
-```
+sudo snap install --classic certbot
 
-```
-sudo certbot --nginx -d example.com -d www.example.com
-```
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
 
-
+sudo certbot --nginx
+```
 
 ## Script
+
+```
+curl -O https://raw.githubusercontent.com/LeanderZiehm/devops/refs/heads/main/setup-nginx.sh
+```
+
+[https://github.com/LeanderZiehm/devops/blob/main/setup-nginx.sh](https://github.com/LeanderZiehm/devops/blob/main/setup-nginx.sh)
 
 ```
 #!/bin/bash
@@ -66,7 +59,7 @@ server {
         proxy_http_version 1.1;
 
         # Required for WebSocket support
-        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Upgrade \$http_upgrade;
         proxy_set_header Connection "upgrade";
         
         proxy_set_header Host \$host;
@@ -94,6 +87,29 @@ sudo certbot --nginx -d $DOMAIN
 
 echo "Setup complete! Your app is available at https://$DOMAIN"
 ```
+
+
+
+
+
+
+
+## manually check
+
+```
+sudo vim /etc/nginx/sites-available/example.com
+```
+
+```
+sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/
+```
+
+```
+sudo nginx -t && sudo systemctl reload nginx
+```
+
+/etc/nginx/sites-available/\
+/etc/nginx/sites-enabled/
 
 
 
