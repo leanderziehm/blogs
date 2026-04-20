@@ -1,4 +1,4 @@
-# SSH
+# ssh
 
 ### Install SSH Server
 
@@ -48,6 +48,27 @@ then restart ssh demon with
 ```
 sudo systemctl restart sshd
 ```
+
+
+
+## SSH Config
+
+
+
+vim \~/.ssh/config
+
+```
+Host shortname
+    HostName 100.100.100.100
+    User ubuntu
+    IdentityFile ~/.ssh/private-key-filename.key
+```
+
+<br>
+
+
+
+
 
 
 

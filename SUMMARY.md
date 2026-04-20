@@ -34,7 +34,6 @@
 * [neovim](cli-terminal/neovim.md)
 * [git](cli-terminal/git.md)
 * [tmux](cli-terminal/tmux.md)
-* [ssh](cli-terminal/ssh.md)
 
 ## System-Administration
 
@@ -46,6 +45,7 @@
 * [Linux Users](system-administration/linux-users.md)
 * [Research](system-administration/research.md)
 * [Debian Package Sizes](system-administration/debian-package-sizes.md)
+* [ssh](system-administration/ssh.md)
 
 ## Networking
 
