@@ -1,8 +1,66 @@
-# NeoVim
+# vim
+
+
+
+fix tab sizing:
+
+```
+:set tabstop=4
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+***
+
+## Neovim
 
 `Lazyvim` and `Nvim Kikstart` are a good way to begin your neovim journey.
 
-## LazyVim
+### LazyVim
 
 Official Documentation:
 
@@ -28,7 +86,7 @@ after reloading you bashrc from now on typing vl will launch lazy vim :smile:
 
 
 
-## Kickstart Nvim
+### Kickstart Nvim
 
 Official Repo:
 

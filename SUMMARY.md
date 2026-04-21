@@ -32,7 +32,7 @@
 
 ## CLI Terminal
 
-* [neovim](cli-terminal/neovim.md)
+* [vim](cli-terminal/vim.md)
 * [git](cli-terminal/git.md)
 * [tmux](cli-terminal/tmux.md)
 
