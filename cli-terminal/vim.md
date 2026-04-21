@@ -84,6 +84,63 @@ after reloading you bashrc from now on typing vl will launch lazy vim :smile:
 
 
 
+## commands
+
+:set foldlevel=3
+
+
+
+
+
+
+
+## Combos
+
+| Keyboard | Effect      |   |
+| -------- | ----------- | - |
+| za       | toggle fold |   |
+|          |             |   |
+|          |             |   |
+
+* `zm` → fold **one more level** globally
+* `zr` → open **one more level** globally
+* `zM` → fold **everything**
+* `zR` → open **everything**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### Kickstart Nvim
