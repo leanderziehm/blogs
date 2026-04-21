@@ -29,19 +29,22 @@
 
 ## Computer Science
 
-* [Media types](computer-science/media-types.md)
 * [OpenAPI](computer-science/openapi.md)
-* [HTTP Status Codes](computer-science/http-status-codes.md)
-* [HTTP Methos](computer-science/http-methos.md)
+
+## Web-Standards
+
+* [Media types](web-standards/media-types.md)
+* [HTTP Methos](web-standards/http-methos.md)
+* [HTTP Status Codes](web-standards/http-status-codes.md)
 
 ## programming-languages
 
 * [Typescript](programming-languages/typescript/README.md)
+  * [Angular](programming-languages/typescript/angular.md)
   * [React](programming-languages/typescript/react.md)
-  * [Node.js Express](programming-languages/typescript/node.js-express.md)
-  * [Javascript](programming-languages/typescript/javascript.md)
   * [Testing](programming-languages/typescript/testing.md)
-  * [Other](programming-languages/typescript/other.md)
+  * [Javascript](programming-languages/typescript/javascript.md)
+  * [Node.js](programming-languages/typescript/node.js-express.md)
 * [SQL](programming-languages/sql.md)
 * [Java](programming-languages/java/README.md)
   * [Spring Boot](programming-languages/java/spring-boot.md)
@@ -51,10 +54,11 @@
 
 ## Databases
 
+* [Databases Overview](databases/databases.md)
 * [Database Normalization](databases/database-normalization.md)
-* [Databases](databases/databases.md)
 * [Postgres](databases/postgres/README.md)
   * [Patroni](databases/postgres/patroni.md)
+* [Sqlite](databases/sqlite.md)
 
 ## Linux
 
