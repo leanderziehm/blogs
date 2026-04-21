@@ -8,6 +8,23 @@
 * [Project: Personal Tracker](projects/project-personal-tracker.md)
 * [Project: Countdown](projects/project-countdown.md)
 
+## System-Administration
+
+* [Podman](system-administration/podman.md)
+* [Nginx](system-administration/nginx.md)
+* [Firewall](system-administration/firewall.md)
+
+## CLI Terminal
+
+* [git](cli-terminal/git.md)
+* [vim](cli-terminal/vim.md)
+* [tmux](cli-terminal/tmux.md)
+* [clis](cli-terminal/clis.md)
+
+## cloud
+
+* [Google Cloud Platform](cloud/google-cloud-platform.md)
+
 ## programming-languages
 
 * [Typescript](programming-languages/typescript/README.md)
@@ -29,18 +46,6 @@
 * [Databases](databases/databases.md)
 * [Postgres](databases/postgres/README.md)
   * [Patroni](databases/postgres/patroni.md)
-
-## CLI Terminal
-
-* [vim](cli-terminal/vim.md)
-* [git](cli-terminal/git.md)
-* [tmux](cli-terminal/tmux.md)
-
-## System-Administration
-
-* [Podman](system-administration/podman.md)
-* [Nginx](system-administration/nginx.md)
-* [Firewall](system-administration/firewall.md)
 
 ## Linux
 
