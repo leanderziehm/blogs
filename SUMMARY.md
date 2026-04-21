@@ -65,8 +65,7 @@
 
 * [Databases Overview](databases/databases.md)
 * [Database Normalization](databases/database-normalization.md)
-* [Postgres](databases/postgres/README.md)
-  * [Patroni](databases/postgres/patroni.md)
+* [Postgres](databases/postgres.md)
 * [Sqlite](databases/sqlite.md)
 
 ## File-Formats
