@@ -1,7 +1,12 @@
 # Table of contents
 
+## Welcome
+
 * [Welcome to My Notes](README.md)
-* [Keyboard Shortcuts](keyboard-shortcuts.md)
+
+## Personal
+
+* [Keyboard Shortcuts](personal/keyboard-shortcuts.md)
 
 ## Projects
 
@@ -14,10 +19,12 @@
 * [Podman](system-administration/podman.md)
 * [Nginx](system-administration/nginx.md)
 * [Firewall](system-administration/firewall.md)
+* [Postgesql](system-administration/postgesql-on-linux.md)
 
 ## CLI Terminal
 
 * [git](cli-terminal/git.md)
+* [ssh](cli-terminal/ssh.md)
 * [vim](cli-terminal/vim.md)
 * [tmux](cli-terminal/tmux.md)
 * [clis](cli-terminal/clis.md)
@@ -29,6 +36,7 @@
 
 ## Computer Science
 
+* [ISO Model vs TCP IP Model](computer-science/iso-model-vs-tcp-ip-model.md)
 * [OpenAPI](computer-science/openapi.md)
 
 ## Web-Standards
@@ -36,6 +44,7 @@
 * [Media types](web-standards/media-types.md)
 * [HTTP Methos](web-standards/http-methos.md)
 * [HTTP Status Codes](web-standards/http-status-codes.md)
+* [HTTP Headers Security](web-standards/http-headers-security.md)
 
 ## programming-languages
 
@@ -50,7 +59,7 @@
   * [Spring Boot](programming-languages/java/spring-boot.md)
   * [Setup](programming-languages/java/setup.md)
 * [Python](programming-languages/python.md)
-* [Other](programming-languages/other.md)
+* [Scripting-Languages](programming-languages/other.md)
 
 ## Databases
 
@@ -60,23 +69,21 @@
   * [Patroni](databases/postgres/patroni.md)
 * [Sqlite](databases/sqlite.md)
 
+## File-Formats
+
+* [YAML](file-formats/yaml.md)
+* [JSON](file-formats/json.md)
+* [HTML](file-formats/html.md)
+
 ## Linux
 
-* [Research](linux/research.md)
+* [Devices on Network](linux/network-devices.md)
 * [Linux Package Managers](linux/linux-package-managers.md)
 * [Linux Terminal Commands](linux/linux-terminal-commands.md)
-* [Postgesql on Linux](linux/postgesql-on-linux.md)
 * [Linux Users](linux/linux-users.md)
 * [Debian Package Sizes](linux/debian-package-sizes.md)
-* [ssh](linux/ssh.md)
 * [Virtualization](linux/virtualization.md)
-
-## Networking
-
-* [Network Devices](networking/network-devices.md)
-* [HTTP Headers Security](networking/http-headers-security.md)
-* [ISO Model vs TCP IP Model](networking/iso-model-vs-tcp-ip-model.md)
 
 ## AI
 
-* [AI Web App Creators](ai/ai-web-app-creators.md)
+* [Free AI Code-Agents](ai/ai-web-app-creators.md)

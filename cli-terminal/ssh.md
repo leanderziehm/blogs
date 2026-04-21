@@ -1,5 +1,11 @@
 # ssh
 
+```
+ssh-keygen 
+```
+
+
+
 ### Install SSH Server
 
 ```
