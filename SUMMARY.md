@@ -31,6 +31,7 @@
 * [Media types](computer-science/media-types.md)
 * [OpenAPI](computer-science/openapi.md)
 * [HTTP Status Codes](computer-science/http-status-codes.md)
+* [HTTP Methos](computer-science/http-methos.md)
 
 ## programming-languages
 
