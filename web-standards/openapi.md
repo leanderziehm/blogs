@@ -32,5 +32,20 @@ Json Data Type Format:
 | `double`   | number         |                              |
 | `password` | string         | A hint to obscure the value. |
 
-<br>
 
+
+
+
+## Examples
+
+YouTube Data API v3
+
+Google Drive API
+
+Google Sheets API
+
+Google Maps Platform APIs
+
+
+
+Github API: [https://github.com/github/rest-api-description](https://github.com/github/rest-api-description)

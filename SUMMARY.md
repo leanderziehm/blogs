@@ -14,6 +14,10 @@
 * [Project: Countdown](projects/project-countdown.md)
 * [Project: Timer](projects/project-timer.md)
 
+## cloud
+
+* [Google Cloud Platform](cloud/google-cloud-platform.md)
+
 ## System-Administration
 
 * [Podman](system-administration/podman.md)
@@ -21,26 +25,9 @@
 * [Firewall](system-administration/firewall.md)
 * [Postgesql](system-administration/postgesql-on-linux.md)
 
-## CLI Terminal
-
-* [git](cli-terminal/git.md)
-* [ssh](cli-terminal/ssh.md)
-* [vim](cli-terminal/vim.md)
-* [tmux](cli-terminal/tmux.md)
-* [clis](cli-terminal/clis.md)
-* [Bash](cli-terminal/bash.md)
-
-## cloud
-
-* [Google Cloud Platform](cloud/google-cloud-platform.md)
-
-## Computer Science
-
-* [ISO Model vs TCP IP Model](computer-science/iso-model-vs-tcp-ip-model.md)
-* [OpenAPI](computer-science/openapi.md)
-
 ## Web-Standards
 
+* [OpenAPI](web-standards/openapi.md)
 * [Media types](web-standards/media-types.md)
 * [HTTP Methos](web-standards/http-methos.md)
 * [HTTP Status Codes](web-standards/http-status-codes.md)
@@ -61,6 +48,10 @@
 * [Python](programming-languages/python.md)
 * [Scripting-Languages](programming-languages/other.md)
 
+## Computer Science
+
+* [ISO Model vs TCP IP Model](computer-science/iso-model-vs-tcp-ip-model.md)
+
 ## Databases
 
 * [Databases Overview](databases/databases.md)
@@ -73,6 +64,15 @@
 * [YAML](file-formats/yaml.md)
 * [JSON](file-formats/json.md)
 * [HTML](file-formats/html.md)
+
+## CLI Terminal
+
+* [git](cli-terminal/git.md)
+* [ssh](cli-terminal/ssh.md)
+* [vim](cli-terminal/vim.md)
+* [tmux](cli-terminal/tmux.md)
+* [clis](cli-terminal/clis.md)
+* [Bash](cli-terminal/bash.md)
 
 ## Linux
 
