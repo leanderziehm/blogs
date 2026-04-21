@@ -8,7 +8,11 @@ fix tab sizing:
 :set tabstop=4
 ```
 
+or
 
+```
+set shiftwidth=2 smarttab
+```
 
 
 
