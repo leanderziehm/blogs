@@ -25,6 +25,12 @@
 
 * [Google Cloud Platform](cloud/google-cloud-platform.md)
 
+## Computer Science
+
+* [Media types](computer-science/media-types.md)
+* [OpenAPI](computer-science/openapi.md)
+* [HTTP Status Codes](computer-science/http-status-codes.md)
+
 ## programming-languages
 
 * [Typescript](programming-languages/typescript/README.md)
