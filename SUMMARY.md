@@ -29,7 +29,7 @@
 
 * [OpenAPI](web-standards/openapi.md)
 * [Media types](web-standards/media-types.md)
-* [HTTP Methos](web-standards/http-methos.md)
+* [HTTP Methods](web-standards/http-methos.md)
 * [HTTP Status Codes](web-standards/http-status-codes.md)
 * [HTTP Headers Security](web-standards/http-headers-security.md)
 
