@@ -55,6 +55,7 @@
 ## Databases
 
 * [Databases Overview](databases/databases.md)
+* [Database Migration](database/database-migration.md)
 * [Database Normalization](databases/database-normalization.md)
 * [Postgres](databases/postgres.md)
 * [Sqlite](databases/sqlite.md)
