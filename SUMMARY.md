@@ -82,6 +82,7 @@
 * [Linux Users](linux/linux-users.md)
 * [Debian Package Sizes](linux/debian-package-sizes.md)
 * [Virtualization](linux/virtualization.md)
+* [Suspend Mode](linux/suspend-mode.md)
 
 ## AI
 
