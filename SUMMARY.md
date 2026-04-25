@@ -74,9 +74,9 @@
 ## CLI Terminal
 
 * [git](cli-terminal/git.md)
+* [tmux](cli-terminal/tmux.md)
 * [ssh](cli-terminal/ssh.md)
 * [vim](cli-terminal/vim.md)
-* [tmux](cli-terminal/tmux.md)
 * [clis](cli-terminal/clis.md)
 * [Bash](cli-terminal/bash.md)
 

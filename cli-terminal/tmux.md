@@ -1,6 +1,10 @@
-# Tmux
+# tmux
+
+attach instead of always creating a new session:
 
 tmux a
+
+
 
 tmux new -s mysession
 
@@ -10,6 +14,11 @@ tmux new -s mysession
 | ------------------------------ | ------------------- |
 | Ctrl + b + c                   | New Window          |
 | Ctrl + b + n                   | Next Window         |
+| Ctrl + b + s                   | Selectable Sessions |
+| Ctrl + b + x                   | close pane          |
+| Ctrl + b + $                   | Rename Session      |
+| Ctrl + b + \[     Space, Enter | copy mode           |
+|                                |                     |
 | Ctrl + b + w                   | Selectable Windows  |
 | Ctrl + b + 0-9                 | Select Window       |
 |                                |                     |
@@ -17,17 +26,13 @@ tmux new -s mysession
 | Ctrl + b + "                   | horizontal pane     |
 | Ctrl + b + arrow               | select pane         |
 | Ctrl + b + z                   | focus pane          |
-| Ctrl + b + x                   | close pane          |
 | Ctrl + b + Space               | Toggle layout pane  |
 |                                |                     |
-| Ctrl + b + s                   | Selectable Sessions |
-| Ctrl + b + $                   | Rename Session      |
 | :new -s sessionName            | New Session         |
 | :kill-session                  | Kill Session        |
 | Ctrl + b + )                   | Next Session        |
 | Ctrl + b + d                   | Detatch Session     |
 |                                |                     |
-| Ctrl + b + \[     Space, Enter |                     |
 
 
 
