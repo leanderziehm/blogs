@@ -1,4 +1,4 @@
-# Spring Boot
+# Spring Boot Java
 
 #### Spring Initilizr:
 
@@ -48,29 +48,6 @@ spring.sql.init.mode=never
 # OpenAPI
 springdoc.api-docs.path=/openapi.json
 springdoc.swagger-ui.path=/
-```
-
-
-
-openapi config:
-
-&#x20;`/src/main/java/com/`  2 folders down create config folder and in it OpenApiConfig.java
-
-```
-@OpenAPIDefinition(info = @Info(title = "Example API", contact = @Contact(name = "Leander", email = "contact@leanderziehm.com"), version = "0.1.0"))
-@Configuration
-public class OpenApiConfig {
-
-    @Value("${x.openapi.server.url}")
-    private String serverUrl;
-
-    @Bean
-    public OpenAPI customOpenAPI() {
-        return new OpenAPI()
-                .servers(List.of(
-                        new Server().url(serverUrl).description("Server")));
-    }
-}
 ```
 
 
@@ -138,7 +115,60 @@ then run it using bash run.sh.
 
 
 
+#### config
 
+openapi config:
+
+&#x20;`/src/main/java/com/`  2 folders down create config folder and in it CorsConfig.java
+
+```
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+@Configuration
+public class CorsConfig implements WebMvcConfigurer {
+
+    @Override
+    public void addCorsMappings(CorsRegistry registry) {
+        registry.addMapping("/**")
+                .allowedOriginPatterns("*") // Add the client URL here
+                .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
+                .allowedHeaders("*")
+                .allowCredentials(true);
+    }
+}
+```
+
+&#x20;OpenApiConfig.java:
+
+```
+import io.swagger.v3.oas.annotations.OpenAPIDefinition;
+import io.swagger.v3.oas.annotations.info.Contact;
+import io.swagger.v3.oas.annotations.info.Info;
+import io.swagger.v3.oas.models.OpenAPI;
+import io.swagger.v3.oas.models.servers.Server;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import java.util.List;
+
+@OpenAPIDefinition(info = @Info(title = "Math API", contact = @Contact(name = "Leander", email = "contact@leanderziehm.com"), version = "0.1.0"))
+@Configuration
+public class OpenApiConfig {
+
+    @Value("${x.openapi.server.url}")
+    private String serverUrl;
+
+    @Bean
+    public OpenAPI customOpenAPI() {
+        return new OpenAPI()
+                .servers(List.of(
+                        new Server().url(serverUrl).description("Server")));
+    }
+}
+```
 
 
 

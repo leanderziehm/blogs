@@ -27,8 +27,8 @@
 
 ## Fontend Frameworks
 
-* [React](fontend-frameworks/react.md)
 * [Angular](fontend-frameworks/angular.md)
+* [React](fontend-frameworks/react.md)
 
 ## Backend Frameworks
 
