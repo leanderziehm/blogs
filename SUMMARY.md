@@ -25,6 +25,26 @@
 * [Firewall](system-administration/firewall.md)
 * [Postgesql](system-administration/postgesql-on-linux.md)
 
+## Fontend Frameworks
+
+* [React](fontend-frameworks/react.md)
+* [Angular](fontend-frameworks/angular.md)
+
+## Backend Frameworks
+
+* [Spring Boot Java](backend-frameworks/spring-boot.md)
+
+## programming-languages
+
+* [Typescript](programming-languages/typescript/README.md)
+  * [Javascript](programming-languages/typescript/javascript.md)
+  * [Node.js](programming-languages/typescript/node.js-express.md)
+  * [Testing](programming-languages/typescript/testing.md)
+* [Java](programming-languages/java.md)
+* [SQL](programming-languages/sql.md)
+* [Python](programming-languages/python.md)
+* [Scripting-Languages](programming-languages/other.md)
+
 ## Web-Standards
 
 * [OpenAPI](web-standards/openapi.md)
@@ -32,21 +52,6 @@
 * [HTTP Methods](web-standards/http-methos.md)
 * [HTTP Status Codes](web-standards/http-status-codes.md)
 * [HTTP Headers Security](web-standards/http-headers-security.md)
-
-## programming-languages
-
-* [Typescript](programming-languages/typescript/README.md)
-  * [Angular](programming-languages/typescript/angular.md)
-  * [React](programming-languages/typescript/react.md)
-  * [Testing](programming-languages/typescript/testing.md)
-  * [Javascript](programming-languages/typescript/javascript.md)
-  * [Node.js](programming-languages/typescript/node.js-express.md)
-* [SQL](programming-languages/sql.md)
-* [Java](programming-languages/java/README.md)
-  * [Spring Boot](programming-languages/java/spring-boot.md)
-  * [Setup](programming-languages/java/setup.md)
-* [Python](programming-languages/python.md)
-* [Scripting-Languages](programming-languages/other.md)
 
 ## Computer Science
 

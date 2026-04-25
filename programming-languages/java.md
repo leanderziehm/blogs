@@ -1,5 +1,13 @@
 # Java
 
+setup install java:
+
+```
+ sudo apt install default-jdk
+```
+
+
+
 ### datatypes:
 
 boolean Boolean
