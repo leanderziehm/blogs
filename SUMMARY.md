@@ -11,8 +11,6 @@
 ## Projects
 
 * [Project: Personal Tracker](projects/project-personal-tracker.md)
-* [Project: Countdown](projects/project-countdown.md)
-* [Project: Timer](projects/project-timer.md)
 
 ## cloud
 
