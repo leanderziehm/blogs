@@ -1,30 +1,8 @@
 # Keyboard Shortcuts
 
-## Eclipse
+## Intelij (custom mappings)
 
-| Keyboard         | Effect        |
-| ---------------- | ------------- |
-| Ctrl + Shift + O | Clean imports |
-| Ctrl + I         | indent code   |
-|                  |               |
-
-
-
-## Debugging Javascript: Chrome Devtools
-
-| Keyboard         | Effect        |
-| ---------------- | ------------- |
-| Ctrl + Shift + J | Open Console  |
-| Ctrl + Shift + C | Open Elements |
-|                  |               |
-
-## General Chrom Shortcuts
-
-| Keyboard   | Effect     |
-| ---------- | ---------- |
-| Ctrl + T   | New Tab    |
-| Ctrl + Tab | Next Tab   |
-| Ctrl + N   | New Window |
+<table><thead><tr><th width="141.42578125"></th><th width="165.886962890625">Effect</th><th width="461.8157958984375">Path</th></tr></thead><tbody><tr><td>Ctrl + Alt + S </td><td>Settings</td><td>File/Settings Actions/Settings...</td></tr><tr><td>Ctrl + J</td><td>Terminal toggle</td><td>Tool Windows/Terminal</td></tr><tr><td>Ctrl + /</td><td>Comment Line</td><td>Code/Comment Actions/Comment with Line Comment</td></tr><tr><td>Ctrl + P</td><td>Go to File</td><td>Navigate/Goto by Name Actions/Go to File...</td></tr><tr><td>Ctrl + Shift + P </td><td>Find Actions</td><td>Help/Find Action...</td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
 
 
 
@@ -55,6 +33,17 @@
 
 
 
+## Chrome:
+
+| Keyboard         | Effect                  |
+| ---------------- | ----------------------- |
+| Ctrl + T         | New Tab                 |
+| Ctrl + Tab       | Next Tab                |
+| Ctrl + N         | New Window              |
+|                  |                         |
+| Ctrl + Shift + J | Devtools: Open Console  |
+| Ctrl + Shift + C | Devtools: Open Elements |
+
 
 
 ## Windows OS
@@ -77,3 +66,12 @@
 | Ctrl + Shift + T | new tab      |
 | Ctrl + Shift + W | close tab    |
 | Ctrl + L         | clear screen |
+
+## Eclipse
+
+| Keyboard         | Effect        |
+| ---------------- | ------------- |
+| Ctrl + Shift + O | Clean imports |
+| Ctrl + I         | indent code   |
+|                  |               |
+
