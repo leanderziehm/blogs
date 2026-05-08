@@ -15,6 +15,46 @@ LIMIT 20;
 
 
 
+## Postgres
+
+
+
+
+
+### psql
+
+```
+psql -h domain.example.com -U postgresUser -d postgresDatabase
+```
+
+list all databses:
+
+\l
+
+
+
+
+
+
+
+```
+select * from apis.public;
+```
+
+
+
+```
+select * from apis.public;
+```
+
+
+
+
+
+
+
+
+
 
 
 ## Cool Software:

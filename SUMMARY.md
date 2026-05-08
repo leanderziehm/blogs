@@ -4,24 +4,33 @@
 
 * [Welcome to My Notes](README.md)
 
-## Personal
+## programming-languages
 
-* [Keyboard Shortcuts](personal/keyboard-shortcuts.md)
-
-## Projects
-
-* [Project: Personal Tracker](projects/project-personal-tracker.md)
-
-## cloud
-
-* [Google Cloud Platform](cloud/google-cloud-platform.md)
+* [SQL](programming-languages/sql.md)
+* [Typescript](programming-languages/typescript/README.md)
+  * [Javascript](programming-languages/typescript/javascript.md)
+  * [Node.js](programming-languages/typescript/node.js-express.md)
+  * [Testing](programming-languages/typescript/testing.md)
+* [Java](programming-languages/java.md)
+* [Python](programming-languages/python.md)
+* [Scripting-Languages](programming-languages/other.md)
 
 ## System-Administration
 
 * [Podman](system-administration/podman.md)
-* [Nginx](system-administration/nginx.md)
+* [Nginx setup](system-administration/nginx.md)
 * [Firewall](system-administration/firewall.md)
-* [Postgesql](system-administration/postgesql-on-linux.md)
+* [Postgesql setup](system-administration/postgesql-on-linux.md)
+
+## Data Analytics
+
+* [Coding](data-analytics/coding.md)
+* [Excel](data-analytics/excel.md)
+* [Forcasting](data-analytics/forcasting.md)
+
+## Projects
+
+* [Project: Personal Tracker](projects/project-personal-tracker.md)
 
 ## Fontend Frameworks
 
@@ -32,16 +41,9 @@
 
 * [Spring Boot Java](backend-frameworks/spring-boot.md)
 
-## programming-languages
+## cloud
 
-* [Typescript](programming-languages/typescript/README.md)
-  * [Javascript](programming-languages/typescript/javascript.md)
-  * [Node.js](programming-languages/typescript/node.js-express.md)
-  * [Testing](programming-languages/typescript/testing.md)
-* [Java](programming-languages/java.md)
-* [SQL](programming-languages/sql.md)
-* [Python](programming-languages/python.md)
-* [Scripting-Languages](programming-languages/other.md)
+* [Google Cloud Platform](cloud/google-cloud-platform.md)
 
 ## Web-Standards
 
@@ -50,6 +52,10 @@
 * [HTTP Methods](web-standards/http-methos.md)
 * [HTTP Status Codes](web-standards/http-status-codes.md)
 * [HTTP Headers Security](web-standards/http-headers-security.md)
+
+## Personal
+
+* [Keyboard Shortcuts](personal/keyboard-shortcuts.md)
 
 ## Computer Science
 
@@ -60,7 +66,6 @@
 * [Databases Overview](databases/databases.md)
 * [Database Migration](databases/database-migration.md)
 * [Database Normalization](databases/database-normalization.md)
-* [Postgres](databases/postgres.md)
 * [Sqlite](databases/sqlite.md)
 
 ## File-Formats
