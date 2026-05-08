@@ -20,7 +20,7 @@
 * [Podman](system-administration/podman.md)
 * [Nginx setup](system-administration/nginx.md)
 * [Firewall](system-administration/firewall.md)
-* [Postgesql setup](system-administration/postgesql-on-linux.md)
+* [Postgesql](system-administration/postgesql-on-linux.md)
 
 ## Data Analytics
 

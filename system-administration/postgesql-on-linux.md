@@ -123,6 +123,48 @@ scp ./oracle-2_all_databases_backup.sql oracle:~/
 
 
 
+
+
+
+
+
+
+## psql
+
+```
+psql -h domain.example.com -U postgresUser -d postgresDatabase
+```
+
+
+
+| Meta-Command               | Effect                                   |
+| -------------------------- | ---------------------------------------- |
+| \list or \l                | list all databases                       |
+| \dt                        | Lists all tables in the current database |
+| \du                        | show users                               |
+| \conninfo                  | connection info                          |
+| \change or \c databaseName | change database                          |
+| \d tableName               | show schema of table                     |
+| \d+ tableName              | detailed table infos                     |
+|                            |                                          |
+
+| **`\di`** | Lists all indexes.   | Helps with performance tuning and understanding database schema.          |
+| --------- | -------------------- | ------------------------------------------------------------------------- |
+| **`\dv`** | Lists all views.     | Essential for understanding virtual or pre-packaged data representations. |
+| **`\df`** | Lists all functions. | Crucial for projects that rely heavily on stored procedures.              |
+|           |                      |                                                                           |
+|           |                      |                                                                           |
+
+[https://www.postgresql.org/docs/current/app-psql.html](https://www.postgresql.org/docs/current/app-psql.html)
+
+
+
+
+
+
+
+
+
 ## Related Topics
 
 High availabiltiy
