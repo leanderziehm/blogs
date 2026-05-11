@@ -2,21 +2,11 @@
 
 ## Install
 
-on arch linux:
-
-```
-sudo pacman -S postgresql
-```
-
-on debian, ubuntu and derivatives:&#x20;
-
 ```
 sudo apt install postgresql
 ```
 
-
-
-sudo -iu postgres initdb --locale=C.UTF-8 --encoding=UTF8 -D /var/lib/postgres/data
+## Enable postgres
 
 ```
 sudo systemctl start postgresql
@@ -26,57 +16,11 @@ systemctl status postgresql
 
 sudo -iu postgres psql
 
-
+## New user and db
 
 sudo -iu postgres createuser --interactive\
 sudo -iu postgres createdb mydb\
 psql -U myuser -d mydb
-
-
-
-change postgres admin password:
-
-```
-sudo -iu postgres psql -c "ALTER USER postgres WITH PASSWORD 'newpassword';"
-```
-
-
-
-
-
-
-
-***
-
-
-
-## Install
-
-```
-sudo apt install postgresql
-```
-
-## Expose Postgres Publicly
-
-{% hint style="danger" %}
-This action is dangerous. Only follow if you follow have strong security practices and you know what you are doing.&#x20;
-{% endhint %}
-
-sudo apt install postgres
-
-sudo vim /etc/postgresql/16/main/postgresql.conf
-
-```jsx
-listen_addresses = '*'
-```
-
-sudo vim /etc/postgresql/16/main/pg\_hba.conf
-
-```
-host    all    all    0.0.0.0/0    md5
-```
-
-
 
 ## Change passowrd
 
@@ -92,6 +36,40 @@ ALTER USER postgres WITH PASSWORD 'new_password';
 ```
 sudo systemctl restart postgresql
 ```
+
+```
+sudo -iu postgres psql -c "ALTER USER postgres WITH PASSWORD 'newpassword';"
+```
+
+## Expose Postgres Publicly
+
+{% hint style="danger" %}
+This action is dangerous. Only follow if you follow have strong security practices and you know what you are doing.&#x20;
+{% endhint %}
+
+```
+sudo vim /etc/postgresql/16/main/postgresql.conf
+```
+
+listen\_addresses = '\*'
+
+```
+sudo vim /etc/postgresql/16/main/pg_hba.conf
+```
+
+host all all 0.0.0.0/0 md5
+
+```
+sudo systemctl restart postgresql
+```
+
+
+
+and also open firewall at 5432:
+
+{% content-ref url="firewall.md" %}
+[firewall.md](firewall.md)
+{% endcontent-ref %}
 
 ## Backup:
 
@@ -111,15 +89,84 @@ or archive in s3 compatible storage
 
 ## Restore Backup
 
+if you have a backup on the personal computer and want it on the server:
+
 ```
+scp ./pg_dumpall_2026-02-25_19-26-40.sql.gz database:~/
+```
+
+on server then load the database by:&#x20;
+
+```
+gunzip ./pg_dumpall_2026-02-25_19-26-40.sql.gz
 sudo chown postgres:postgres pg_dumpall_2026-02-25_19-26-40.sql
-sudo -u postgres psql -f ~/pg_dumpall_2026-02-25_19-26-40.sql
-scp ./oracle-2_all_databases_backup.sql oracle:~/
 ```
 
-## Files
+```
+sudo mv /home/ubuntu/pg_dumpall_2026-02-25_19-26-40.sql /var/lib/postgresql/
+```
 
-/etc/postgresql/16/main/postgresql.conf
+```
+sudo -iu postgres
+```
+
+```
+psql -f ./pg_dumpall_2026-02-25_19-26-40.sql
+```
+
+
+
+## Backup with Rclone to cloud
+
+```
+sudo apt install rclone
+```
+
+on server
+
+```
+rclone config 
+```
+
+name it dropbox and select it (13)
+
+
+
+on personal computer:
+
+```
+rclone authorize "dropbox"
+```
+
+copy paste auth key
+
+
+
+test:
+
+```
+rclone copy /home/ubuntu/test-backup dropbox:backups --ignore-existing --stats=1m --log-level NOTICE
+```
+
+
+
+copy file:
+
+```
+https://raw.githubusercontent.com/LeanderZiehm/devops/refs/heads/main/backup-postgres.sh
+```
+
+```
+chmod +x ./backup-postgres.sh
+```
+
+test:
+
+```
+crontab -e
+
+* * * * * ~/backup-postgres.sh >> ~/pg_backup.log 2>&1
+```
 
 
 
@@ -163,7 +210,11 @@ psql -h domain.example.com -U postgresUser -d postgresDatabase
 
 
 
+## Other
 
+sudo -iu postgres initdb --locale=C.UTF-8 --encoding=UTF8 -D /var/lib/postgres/data
+
+/etc/postgresql/16/main/postgresql.conf
 
 ## Related Topics
 
