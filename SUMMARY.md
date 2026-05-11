@@ -53,9 +53,9 @@
 * [HTTP Status Codes](web-standards/http-status-codes.md)
 * [HTTP Headers Security](web-standards/http-headers-security.md)
 
-## Personal
+## Problem Solving
 
-* [Keyboard Shortcuts](personal/keyboard-shortcuts.md)
+* [Problem Solving](problem-solving/problem-solving.md)
 
 ## Computer Science
 
@@ -92,6 +92,10 @@
 * [Debian Package Sizes](linux/debian-package-sizes.md)
 * [Virtualization](linux/virtualization.md)
 * [Suspend Mode](linux/suspend-mode.md)
+
+## Personal
+
+* [Keyboard Shortcuts](personal/keyboard-shortcuts.md)
 
 ## AI
 
