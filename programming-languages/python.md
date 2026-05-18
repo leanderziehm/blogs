@@ -27,6 +27,39 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 ```
 
+```
+def dataframe_summary(df: pd.DataFrame) -> pd.DataFrame:
+    summary = []
+
+    for col in df.columns:
+        col_data = df[col]
+
+        unique_values = col_data.dropna().unique()
+        unique_count = len(unique_values)
+
+        summary.append({
+            "column": col,
+            "unique_count": unique_count,
+            "missing_values": col_data.isna().sum(),
+            "non_nan_values": col_data.notna().sum(),
+            "sample_values": unique_values.tolist()
+        })
+
+    result = pd.DataFrame(summary)
+
+    # sort by unique value count descending
+    result = result.sort_values(by="unique_count", ascending=False).reset_index(drop=True)
+
+    return result
+
+
+# usage:
+summary_df = dataframe_summary(df)
+summary_df
+```
+
+
+
 ## VsCode Debugger settings&#x20;
 
 ```
