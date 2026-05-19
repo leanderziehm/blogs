@@ -11,6 +11,8 @@
   * [Javascript](programming-languages/typescript/javascript.md)
   * [Node.js](programming-languages/typescript/node.js-express.md)
   * [Testing](programming-languages/typescript/testing.md)
+  * [React](programming-languages/typescript/react.md)
+  * [Angular](programming-languages/typescript/angular.md)
 * [Java](programming-languages/java.md)
 * [Python](programming-languages/python.md)
 * [Scripting-Languages](programming-languages/other.md)
@@ -31,11 +33,6 @@
 ## Projects
 
 * [Project: Personal Tracker](projects/project-personal-tracker.md)
-
-## Fontend Frameworks
-
-* [Angular](fontend-frameworks/angular.md)
-* [React](fontend-frameworks/react.md)
 
 ## Backend Frameworks
 

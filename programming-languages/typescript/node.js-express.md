@@ -1,8 +1,23 @@
 # Node.js
 
+```
+pnpm init
+pnpm i -D typescript
+pnpm i -D prettier
+pnpm i -D eslint
+
+pnpm i -D tsx
+```
+
+```
+npx tsc --init
+```
 
 
 
+
+
+***
 
 
 
