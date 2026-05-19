@@ -8,10 +8,10 @@
 
 * [SQL](programming-languages/sql.md)
 * [Typescript](programming-languages/typescript/README.md)
+  * [React](programming-languages/typescript/react.md)
   * [Javascript](programming-languages/typescript/javascript.md)
   * [Node.js](programming-languages/typescript/node.js-express.md)
   * [Testing](programming-languages/typescript/testing.md)
-  * [React](programming-languages/typescript/react.md)
   * [Angular](programming-languages/typescript/angular.md)
 * [Java](programming-languages/java.md)
 * [Python](programming-languages/python.md)
