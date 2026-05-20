@@ -50,10 +50,6 @@
 * [HTTP Status Codes](web-standards/http-status-codes.md)
 * [HTTP Headers Security](web-standards/http-headers-security.md)
 
-## Problem Solving
-
-* [Problem Solving](problem-solving/problem-solving.md)
-
 ## Computer Science
 
 * [ISO Model vs TCP IP Model](computer-science/iso-model-vs-tcp-ip-model.md)
@@ -89,6 +85,11 @@
 * [Debian Package Sizes](linux/debian-package-sizes.md)
 * [Virtualization](linux/virtualization.md)
 * [Suspend Mode](linux/suspend-mode.md)
+
+## Problem Solving
+
+* [Problem Solving](problem-solving/problem-solving.md)
+* [Reasoning](problem-solving/reasoning.md)
 
 ## Personal
 
