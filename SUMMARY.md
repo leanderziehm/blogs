@@ -14,7 +14,8 @@
   * [Node.js](programming-languages/typescript/node.js-express.md)
   * [Testing](programming-languages/typescript/testing.md)
   * [Angular](programming-languages/typescript/angular.md)
-* [Java](programming-languages/java.md)
+* [Java](programming-languages/java/README.md)
+  * [Spring Boot Java](programming-languages/java/spring-boot.md)
 * [Python](programming-languages/python.md)
 * [Scripting-Languages](programming-languages/other.md)
 
@@ -24,6 +25,10 @@
 * [Nginx setup](system-administration/nginx.md)
 * [Firewall](system-administration/firewall.md)
 * [Postgesql](system-administration/postgesql-on-linux.md)
+
+## Security
+
+* [CVEs](security/cves.md)
 
 ## Data Analytics
 
@@ -35,25 +40,23 @@
 
 * [Project: Personal Tracker](projects/project-personal-tracker.md)
 
-## Backend Frameworks
+## Web-Specifications
 
-* [Spring Boot Java](backend-frameworks/spring-boot.md)
+* [OpenAPI](web-specifications/openapi.md)
+* [MIME Media types](web-specifications/media-types.md)
+* [HTTP](web-specifications/http/README.md)
+  * [HTTP Status Codes](web-specifications/http/http-status-codes.md)
+  * [HTTP Methods](web-specifications/http/http-methos.md)
+  * [HTTP Headers Security](web-specifications/http/http-headers-security.md)
+* [Email (SMTP / IMAP)](web-specifications/email-smtp-imap.md)
+* [ISO Model vs TCP/IP Model](web-specifications/iso-model-vs-tcp-ip-model.md)
+* [GraphQL](web-specifications/graphql.md)
 
 ## cloud
 
-* [Google Cloud Platform](cloud/google-cloud-platform.md)
-
-## Web-Standards
-
-* [OpenAPI](web-standards/openapi.md)
-* [Media types](web-standards/media-types.md)
-* [HTTP Methods](web-standards/http-methos.md)
-* [HTTP Status Codes](web-standards/http-status-codes.md)
-* [HTTP Headers Security](web-standards/http-headers-security.md)
-
-## Computer Science
-
-* [ISO Model vs TCP IP Model](computer-science/iso-model-vs-tcp-ip-model.md)
+* [AWS](cloud/aws.md)
+* [Azure](cloud/azure.md)
+* [GCP: Google Cloud Platform](cloud/google-cloud-platform.md)
 
 ## Databases
 
@@ -61,12 +64,6 @@
 * [Database Migration](databases/database-migration.md)
 * [Database Normalization](databases/database-normalization.md)
 * [Sqlite](databases/sqlite.md)
-
-## File-Formats
-
-* [YAML](file-formats/yaml.md)
-* [JSON](file-formats/json.md)
-* [HTML](file-formats/html.md)
 
 ## CLI Terminal
 
@@ -91,6 +88,16 @@
 
 * [Problem Solving](problem-solving/problem-solving.md)
 * [Reasoning](problem-solving/reasoning.md)
+
+## HCI: Human Computer Interface
+
+* [Latency Perception](hci-human-computer-interface/latency-perception.md)
+
+## File-Formats
+
+* [YAML](file-formats/yaml.md)
+* [JSON](file-formats/json.md)
+* [HTML](file-formats/html.md)
 
 ## Personal
 
