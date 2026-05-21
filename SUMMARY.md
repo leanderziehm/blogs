@@ -8,7 +8,8 @@
 
 * [SQL](programming-languages/sql.md)
 * [Typescript](programming-languages/typescript/README.md)
-  * [React](programming-languages/typescript/react.md)
+  * [React](programming-languages/typescript/react/README.md)
+    * [React vs HTML](programming-languages/typescript/react/react-vs-html.md)
   * [Javascript](programming-languages/typescript/javascript.md)
   * [Node.js](programming-languages/typescript/node.js-express.md)
   * [Testing](programming-languages/typescript/testing.md)
