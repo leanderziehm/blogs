@@ -2,7 +2,7 @@
 
 
 
-{% content-ref url="../programming-languages/python.md" %}
-[python.md](../programming-languages/python.md)
+{% content-ref url="../programming-languages/python/" %}
+[python](../programming-languages/python/)
 {% endcontent-ref %}
 

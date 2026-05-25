@@ -16,7 +16,8 @@
   * [Angular](programming-languages/typescript/angular.md)
 * [Java](programming-languages/java/README.md)
   * [Spring Boot Java](programming-languages/java/spring-boot.md)
-* [Python](programming-languages/python.md)
+* [Python](programming-languages/python/README.md)
+  * [Memory Inspection](programming-languages/python/memory-inspection.md)
 * [Scripting-Languages](programming-languages/other.md)
 
 ## System-Administration
