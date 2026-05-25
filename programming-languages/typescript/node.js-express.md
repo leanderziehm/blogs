@@ -1,7 +1,18 @@
 # Node.js
 
+
+
 ```
 pnpm init
+
+pnpm install @asteasolutions/zod-to-openapi
+pnpm add express zod swagger-ui-express 
+pnpm install ts-node
+
+pnpm install csv-parse
+
+pnpm add -D @types/express @types/swagger-ui-express
+
 pnpm i -D typescript
 pnpm i -D prettier
 pnpm i -D eslint
@@ -13,11 +24,28 @@ pnpm i -D tsx
 npx tsc --init
 ```
 
+```
+pnpm exec tsc --init
+```
+
+```
+pnpm config set ignore-scripts true
+```
+
+```
+```
 
 
 
 
-***
+
+
+
+
+
+
+
+
 
 
 
