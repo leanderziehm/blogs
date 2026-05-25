@@ -37,3 +37,11 @@ git config --global user.name "yourusername"
 
 
 
+
+
+## Problems
+
+sometimes vscode does a bunch of requests to the git server with the wrong credentials and then the  firewall blocks you for some hours. So better to use git mostly over cli with ssh. TODO research more.
+
+
+

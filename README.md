@@ -27,10 +27,16 @@ Hello everyone! These are my notes. Think of this as a personal mini-wiki: a pla
 
 
 
-todo:
+## todo:
 
-run admin dashboards on homeserver or saas:
+research:
 
-grafana
+memory allocation for identical strings in different instances of the same class (do static strings each consume extra memory or is it just a reference to the original string? is there any behavior differnce between class and script attributes? is there a global string pool or different sub groups by class or script or method)
+
+
+
+add to infra:
+
+grafana?
 
 sentry? datadog? posthog?

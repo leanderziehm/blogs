@@ -2,6 +2,51 @@
 
 
 
+## Language Features:
+
+Constructors:
+
+```
+def __init__(self,parameters): ## useful for attribute initialization
+
+def __new__(cls,parameters): ## useful for singeltons
+```
+
+Literals:
+
+```
+from typing import Literal
+
+AutocompleteType = Literal["save", "delete"]
+```
+
+
+
+### Memory Observation
+
+Garbage Collector:
+
+```
+import gc
+gc.get_objects()
+```
+
+```
+import tracemalloc
+
+tracemalloc.start()
+
+a = [str(i) for i in range(10000)]
+
+snapshot = tracemalloc.take_snapshot()
+top_stats = snapshot.statistics('lineno')
+
+for stat in top_stats[:10]:
+    print(stat)
+```
+
+
+
 ## Fastapi
 
 ```
