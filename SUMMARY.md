@@ -102,6 +102,11 @@
 * [JSON](file-formats/json.md)
 * [HTML](file-formats/html.md)
 
+## World-Knowlege
+
+* [Geography](world-knowlege/geography.md)
+* [Immune System](world-knowlege/immune-system.md)
+
 ## Personal
 
 * [Keyboard Shortcuts](personal/keyboard-shortcuts.md)
