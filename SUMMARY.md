@@ -76,6 +76,7 @@
 
 ## Linux
 
+* [Install Software](linux/install-software.md)
 * [Devices on Network](linux/network-devices.md)
 * [Linux Package Managers](linux/linux-package-managers.md)
 * [Linux Terminal Commands](linux/linux-terminal-commands.md)
@@ -83,6 +84,7 @@
 * [Debian Package Sizes](linux/debian-package-sizes.md)
 * [Virtualization](linux/virtualization.md)
 * [Suspend Mode](linux/suspend-mode.md)
+* [Make Makefile](linux/make-makefile.md)
 
 ## Problem Solving
 
