@@ -1,0 +1,25 @@
+name: Deploy in different repo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger Repo B workflow
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.REPO_B_TOKEN }}" \
+            https://api.github.com/repos/LeanderZiehm/notes_hosted_docusaurus/dispatches \
+            -d '{
+              "event_type": "repo-a-updated",
+              "client_payload": {
+                "ref": "${{ github.ref }}",
+                "sha": "${{ github.sha }}"
+              }
+            }'
