@@ -4,9 +4,15 @@
 
 * [Welcome to My Notes](README.md)
 
+## Design-Patterns
+
+* [Design-Patterns](design-patterns/design-patterns.md)
+* [Ports and Adapters](design-patterns/ports-and-adapters.md)
+
+## Compilers
+
 ## programming-languages
 
-* [SQL](programming-languages/sql.md)
 * [Typescript](programming-languages/typescript/README.md)
   * [React](programming-languages/typescript/react/README.md)
     * [React vs HTML](programming-languages/typescript/react/react-vs-html.md)
@@ -14,11 +20,15 @@
   * [Node.js](programming-languages/typescript/node.js-express.md)
   * [Testing](programming-languages/typescript/testing.md)
   * [Angular](programming-languages/typescript/angular.md)
+  * [Astro](programming-languages/typescript/astro.md)
 * [Java](programming-languages/java/README.md)
   * [Spring Boot Java](programming-languages/java/spring-boot.md)
 * [Python](programming-languages/python/README.md)
   * [Memory Inspection](programming-languages/python/memory-inspection.md)
+* [SQL](programming-languages/sql.md)
 * [Scripting-Languages](programming-languages/other.md)
+
+## Errors
 
 ## System-Administration
 
