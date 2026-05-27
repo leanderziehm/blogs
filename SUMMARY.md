@@ -25,6 +25,7 @@
   * [Spring Boot Java](programming-languages/java/spring-boot.md)
 * [Python](programming-languages/python/README.md)
   * [Memory Inspection](programming-languages/python/memory-inspection.md)
+  * [Setup](programming-languages/python/setup.md)
 * [SQL](programming-languages/sql.md)
 * [Scripting-Languages](programming-languages/other.md)
 
@@ -87,6 +88,7 @@
 
 ## Linux
 
+* [Dev Setup](linux/dev-setup.md)
 * [Install Software](linux/install-software.md)
 * [Devices on Network](linux/network-devices.md)
 * [Linux Package Managers](linux/linux-package-managers.md)
