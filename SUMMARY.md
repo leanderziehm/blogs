@@ -116,6 +116,10 @@
 
 * [Geography](world-knowlege/geography.md)
 * [Immune System](world-knowlege/immune-system.md)
+* [Languages](world-knowlege/languages/README.md)
+  * [English](world-knowlege/languages/english.md)
+  * [Spanish](world-knowlege/languages/spanish.md)
+  * [Chinese](world-knowlege/languages/chinese.md)
 
 ## Personal
 
