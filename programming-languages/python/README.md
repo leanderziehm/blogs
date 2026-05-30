@@ -2,27 +2,11 @@
 
 
 
-## Language Features:
-
-Constructors:
+## Raise Exceptions:
 
 ```
-def __init__(self,parameters): ## useful for attribute initialization
-
-def __new__(cls,parameters): ## useful for singeltons
+raise Exception("Sorry, no numbers below zero")
 ```
-
-Literals:
-
-```
-from typing import Literal
-
-AutocompleteType = Literal["save", "delete"]
-```
-
-
-
-###
 
 
 
@@ -129,3 +113,6 @@ summary_df
   ]
 }
 ```
+
+
+

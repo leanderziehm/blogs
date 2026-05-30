@@ -2,6 +2,16 @@
 
 
 
+```
+=COUNTIF(F:F;0)/COUNT(F:F)
+```
+
+
+
+
+
+
+
 TABLES
 
 

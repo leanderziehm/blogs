@@ -170,7 +170,19 @@ crontab -e
 
 
 
+## Paths
 
+config:
+
+```
+/etc/postgres
+```
+
+data:
+
+```
+/var/lib/postgres
+```
 
 
 

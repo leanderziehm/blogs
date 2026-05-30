@@ -1,5 +1,13 @@
 # Memory Inspection
 
+## Profiling:
+
+```
+python -m cProfile foo.py
+```
+
+
+
 ### Memory Observation
 
 Garbage Collector:

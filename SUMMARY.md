@@ -22,15 +22,11 @@
 * [Java](programming-languages/java/README.md)
   * [Spring Boot Java](programming-languages/java/spring-boot.md)
 * [Python](programming-languages/python/README.md)
-  * [Memory Inspection](programming-languages/python/memory-inspection.md)
   * [Setup](programming-languages/python/setup.md)
+  * [Python Language Features](programming-languages/python/python-language-features.md)
+  * [Memory Inspection](programming-languages/python/memory-inspection.md)
 * [SQL](programming-languages/sql.md)
 * [Scripting-Languages](programming-languages/other.md)
-
-## CS-Concepts
-
-* [Compilers](cs-concepts/compilers.md)
-* [Errors](cs-concepts/errors.md)
 
 ## System-Administration
 
@@ -38,6 +34,7 @@
 * [Nginx setup](system-administration/nginx.md)
 * [Firewall](system-administration/firewall.md)
 * [Postgesql](system-administration/postgesql-on-linux.md)
+* [Linux Commands](system-administration/linux-commands.md)
 
 ## Linux
 
@@ -58,6 +55,11 @@
 * [Excel](data-analytics/excel.md)
 * [Forcasting](data-analytics/forcasting.md)
 * [DuckDB](data-analytics/duckdb.md)
+
+## CS-Concepts
+
+* [Compilers](cs-concepts/compilers.md)
+* [Errors](cs-concepts/errors.md)
 
 ## Security
 
