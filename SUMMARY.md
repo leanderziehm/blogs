@@ -26,7 +26,6 @@
   * [Python Language Features](programming-languages/python/python-language-features.md)
   * [Memory Inspection](programming-languages/python/memory-inspection.md)
 * [SQL](programming-languages/sql.md)
-* [Scripting-Languages](programming-languages/other.md)
 
 ## System-Administration
 
@@ -35,29 +34,27 @@
 * [Firewall](system-administration/firewall.md)
 * [Postgesql](system-administration/postgesql-on-linux.md)
 * [Linux Commands](system-administration/linux-commands.md)
+* [Install Packages](system-administration/install-packages.md)
+
+## Terminal CLI Tools
+
+* [git](terminal-cli-tools/git.md)
+* [tmux](terminal-cli-tools/tmux.md)
+* [ssh](terminal-cli-tools/ssh.md)
+* [vim](terminal-cli-tools/vim.md)
+* [Bash](terminal-cli-tools/bash.md)
+* [CLIs](terminal-cli-tools/clis/README.md)
+  * [Chmod](terminal-cli-tools/clis/chmod.md)
+  * [Find](terminal-cli-tools/clis/find.md)
 
 ## Linux
 
-* [Dev Setup](linux/dev-setup.md)
-* [Install Software](linux/install-software.md)
-* [Devices on Network](linux/network-devices.md)
-* [Linux Package Managers](linux/linux-package-managers.md)
-* [Linux Terminal Commands](linux/linux-terminal-commands.md)
+* [Linux Dev Setup](linux/linux-dev-setup.md)
+* [Linux Scan Devices on Network](linux/network-devices.md)
 * [Linux Users](linux/linux-users.md)
-* [Debian Package Sizes](linux/debian-package-sizes.md)
-* [Virtualization](linux/virtualization.md)
-* [Suspend Mode](linux/suspend-mode.md)
-* [Make Makefile](linux/make-makefile.md)
-* [CLIs](linux/clis/README.md)
-  * [Chmod](linux/clis/chmod.md)
-
-## Terminal Tools
-
-* [git](terminal-tools/git.md)
-* [tmux](terminal-tools/tmux.md)
-* [ssh](terminal-tools/ssh.md)
-* [vim](terminal-tools/vim.md)
-* [Bash](terminal-tools/bash.md)
+* [Linux Virtualization](linux/virtualization.md)
+* [Linux Power Settings](linux/suspend-mode.md)
+* [Linux Journal](linux/linux-journal.md)
 
 ## Data Analytics
 
@@ -115,6 +112,7 @@
 
 ## File-Formats
 
+* [Makefile](file-formats/makefile.md)
 * [YAML](file-formats/yaml.md)
 * [JSON](file-formats/json.md)
 * [HTML](file-formats/html.md)
@@ -122,11 +120,11 @@
 ## World-Knowlege
 
 * [Geography](world-knowlege/geography.md)
-* [Immune System](world-knowlege/immune-system.md)
 * [Languages](world-knowlege/languages/README.md)
   * [English](world-knowlege/languages/english.md)
   * [Spanish](world-knowlege/languages/spanish.md)
   * [Chinese](world-knowlege/languages/chinese.md)
+* [Immune System](world-knowlege/immune-system.md)
 
 ## Personal
 

@@ -1,8 +1,25 @@
----
-description: clis
----
+# CLIs
 
-# Linux Terminal Commands
+## find:
+
+
+
+```
+uptime
+```
+
+
+
+
+
+* rclone
+* ncdu
+
+
+
+
+
+
 
 ## Search
 

@@ -2,6 +2,15 @@
 
 
 
+* `0`: No permission
+* `1`: Execute permission
+* `2`: Write permission
+* `3`: Write and execute permissions
+* `4`: Read permission
+* `5`: Read and execute permissions
+* `6`: Read and write permissions
+* `7`: Read, write, and execute permissions
+
 
 
 The core difference between `chmod 600` and `chmod 700` is that **`600` only allows the owner to read and write** a file, while **`700` allows the owner to read, write, and execute**.
