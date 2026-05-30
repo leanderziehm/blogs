@@ -9,8 +9,6 @@
 * [Design-Patterns](design-patterns/design-patterns.md)
 * [Ports and Adapters](design-patterns/ports-and-adapters.md)
 
-## Compilers
-
 ## programming-languages
 
 * [Typescript](programming-languages/typescript/README.md)
@@ -29,7 +27,10 @@
 * [SQL](programming-languages/sql.md)
 * [Scripting-Languages](programming-languages/other.md)
 
-## Errors
+## CS-Concepts
+
+* [Compilers](cs-concepts/compilers.md)
+* [Errors](cs-concepts/errors.md)
 
 ## System-Administration
 
@@ -38,15 +39,29 @@
 * [Firewall](system-administration/firewall.md)
 * [Postgesql](system-administration/postgesql-on-linux.md)
 
-## Security
+## Linux
 
-* [CVEs](security/cves.md)
+* [Dev Setup](linux/dev-setup.md)
+* [Install Software](linux/install-software.md)
+* [Devices on Network](linux/network-devices.md)
+* [Linux Package Managers](linux/linux-package-managers.md)
+* [Linux Terminal Commands](linux/linux-terminal-commands.md)
+* [Linux Users](linux/linux-users.md)
+* [Debian Package Sizes](linux/debian-package-sizes.md)
+* [Virtualization](linux/virtualization.md)
+* [Suspend Mode](linux/suspend-mode.md)
+* [Make Makefile](linux/make-makefile.md)
 
 ## Data Analytics
 
 * [Coding](data-analytics/coding.md)
 * [Excel](data-analytics/excel.md)
 * [Forcasting](data-analytics/forcasting.md)
+* [DuckDB](data-analytics/duckdb.md)
+
+## Security
+
+* [CVEs](security/cves.md)
 
 ## Projects
 
@@ -85,19 +100,6 @@
 * [vim](cli-terminal/vim.md)
 * [clis](cli-terminal/clis.md)
 * [Bash](cli-terminal/bash.md)
-
-## Linux
-
-* [Dev Setup](linux/dev-setup.md)
-* [Install Software](linux/install-software.md)
-* [Devices on Network](linux/network-devices.md)
-* [Linux Package Managers](linux/linux-package-managers.md)
-* [Linux Terminal Commands](linux/linux-terminal-commands.md)
-* [Linux Users](linux/linux-users.md)
-* [Debian Package Sizes](linux/debian-package-sizes.md)
-* [Virtualization](linux/virtualization.md)
-* [Suspend Mode](linux/suspend-mode.md)
-* [Make Makefile](linux/make-makefile.md)
 
 ## Problem Solving
 
