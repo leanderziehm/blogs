@@ -1,7 +1,4 @@
-# clis
+# CLIs
 
 * rclone
 * ncdu
-
-
-

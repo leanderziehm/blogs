@@ -9,7 +9,7 @@
 * [Design-Patterns](design-patterns/design-patterns.md)
 * [Ports and Adapters](design-patterns/ports-and-adapters.md)
 
-## programming-languages
+## Programming-Languages
 
 * [Typescript](programming-languages/typescript/README.md)
   * [React](programming-languages/typescript/react/README.md)
@@ -48,6 +48,16 @@
 * [Virtualization](linux/virtualization.md)
 * [Suspend Mode](linux/suspend-mode.md)
 * [Make Makefile](linux/make-makefile.md)
+* [CLIs](linux/clis/README.md)
+  * [Chmod](linux/clis/chmod.md)
+
+## Terminal Tools
+
+* [git](terminal-tools/git.md)
+* [tmux](terminal-tools/tmux.md)
+* [ssh](terminal-tools/ssh.md)
+* [vim](terminal-tools/vim.md)
+* [Bash](terminal-tools/bash.md)
 
 ## Data Analytics
 
@@ -93,15 +103,6 @@
 * [Database Migration](databases/database-migration.md)
 * [Database Normalization](databases/database-normalization.md)
 * [Sqlite](databases/sqlite.md)
-
-## CLI Terminal
-
-* [git](cli-terminal/git.md)
-* [tmux](cli-terminal/tmux.md)
-* [ssh](cli-terminal/ssh.md)
-* [vim](cli-terminal/vim.md)
-* [clis](cli-terminal/clis.md)
-* [Bash](cli-terminal/bash.md)
 
 ## Problem Solving
 
