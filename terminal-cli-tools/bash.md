@@ -12,6 +12,65 @@ description: Bourne Again SHell
 
 ## Bash Scripting:
 
+
+
+
+
+#### Variables:
+
+leave no space in between varaiable and value&#x20;
+
+```
+a=hello
+c="more then one word"
+b=3
+```
+
+#### Arithmatic Expansion
+
+need two paranthesis to evaluate a math function else treated like string
+
+```
+sum=$((3+1))
+```
+
+### Datatypes:
+
+string, number, array, associative array (dict)
+
+
+
+#### arrays:
+
+```
+# Array example
+fruits=("apple" "banana" "cherry")
+for fruit in "${fruits[@]}"; do
+  echo $fruit
+done
+```
+
+
+
+#### associative array:
+
+```
+# Associative array example
+declare -A colors
+colors[apple]="red"
+colors[banana]="yellow"
+colors[grape]="purple"
+unset colors[banana]
+echo ${colors[apple]} # red
+echo ${colors[grape]} # purple
+```
+
+
+
+
+
+
+
 add to path:
 
 ```
@@ -23,8 +82,29 @@ export PATH=$PATH:/path/to/dir
 cli argument parsing
 
 ```
-$1
+sum=$((3+1))
+good="more then one word"
+argument_count=$#
+
+echo "the argument count is: $argument_count"
+echo hi
+echo $good
+echo $sum
+
+if [ "$argument_count" -ne 1 ]; then
+    echo "please pass 1 and just 1 input after this file"
+else
+    echo $1
+fi
 ```
+
+
+
+
+
+
+
+
 
 
 
@@ -56,9 +136,7 @@ greet "Alice"
 
 
 
-### Datatypes:
-
-string, number, array, associative array (dict)
+###
 
 ## Operators:
 
@@ -125,10 +203,6 @@ trap
 
 
 
-## Bash Keyboard shortcuts
-
-* <kbd>Ctrl</kbd>+<kbd>e</kbd> – Move the cursor to the end of the current commandline
-
 
 
 
@@ -143,11 +217,26 @@ trap
 history | grep apt
 ```
 
+```
+tar -czvf /backup/home_$(date +%F).tar.gz /home/user
+```
 
+```
+find /var/log -type f -name "*.log" -mtime +7 -exec gzip {} \;
+```
 
+```
+ping -c 4 8.8.8.8
+```
 
+```
+docker ps -q | xargs -r docker stop
+docker system prune -af
+```
 
-
+```
+while true; do echo "$(date): $(uptime)"; sleep 60; done >> uptime.log
+```
 
 ### Basic Commands:
 
@@ -166,6 +255,19 @@ history | grep apt
 | cp      |                                                               |                                                                                                                                                                                                                                                       |                        |
 | mv      |                                                               |                                                                                                                                                                                                                                                       |                        |
 |         |                                                               |                                                                                                                                                                                                                                                       |                        |
+| info    | more info than man                                            |                                                                                                                                                                                                                                                       |                        |
+
+
+
+## TAR
+
+```
+tar --zstd -xvf anki-launcher-25.09-linux.tar.zst
+```
+
+
+
+
 
 Bash Search Text (grep)\
 Bash Pattern Scan (awk)\
@@ -229,5 +331,32 @@ Cron jobs are defined using a specific syntax in the crontab file. Each line in 
 * **Month**: 1-12
 * **Day of Week**: 0-7 (0 and 7 are Sunday)
 
-<br>
+
+
+***
+
+
+
+As of Bash 5.3, the 10 metacharacters are the space, tab, and newline, as well as the following characters: `|&;()<>`
+
+
+
+## Bash Keyboard shortcuts
+
+
+
+* <kbd>Ctrl</kbd>+<kbd>e</kbd> – Move the cursor to the end of the current commandline
+* <kbd>Ctrl</kbd>+<kbd>a</kbd> – Move the cursor to the beginning of the current commandline
+* <kbd>Ctrl</kbd>+<kbd>w</kbd> – Remove one word to the left of the cursor
+* <kbd>Ctrl</kbd>+<kbd>s</kbd> – Put the terminal to sleep
+* <kbd>Ctrl</kbd>+<kbd>q</kbd> – Wake the terminal; buffered keypresses are then processed
+* <kbd>Ctrl</kbd>+<kbd>z</kbd> – Stop a foregrounded process
+
+
+
+
+
+
+
+[https://en.wikipedia.org/wiki/Bash\_(Unix\_shell)](https://en.wikipedia.org/wiki/Bash_\(Unix_shell\))<br>
 

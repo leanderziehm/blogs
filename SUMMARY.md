@@ -56,21 +56,60 @@
 * [Linux Power Settings](linux/suspend-mode.md)
 * [Linux Journal](linux/linux-journal.md)
 
-## Data Analytics
+## cloud
 
-* [Coding](data-analytics/coding.md)
-* [Excel](data-analytics/excel.md)
-* [Forcasting](data-analytics/forcasting.md)
-* [DuckDB](data-analytics/duckdb.md)
+* [AWS](cloud/aws.md)
+* [Azure](cloud/azure.md)
+* [GCP: Google Cloud Platform](cloud/google-cloud-platform.md)
+* [Oracle](cloud/oracle.md)
+* [Cloudflare](cloud/cloudflare.md)
+* [Supabase](cloud/supabase.md)
+* [Github Actions](cloud/github-actions.md)
+
+## Data-Science
+
+* [Coding](data-science/coding.md)
+* [Excel](data-science/excel.md)
+* [Forcasting](data-science/forcasting.md)
+* [DuckDB](data-science/duckdb.md)
+* [ETL](data-science/etl.md)
+* [Databricks](data-science/databricks.md)
+* [Data-Science-Tools](data-science/data-science-tools.md)
+* [BI Dashboard Tools](data-science/bi-dashboard-tools.md)
+
+## Networking
+
+* [Proxy Server](networking/proxy-server.md)
+* [Reverse Proxy](networking/reverse-proxy.md)
+* [VPN](networking/vpn.md)
+* [DHCP](networking/dhcp.md)
+* [NAT](networking/nat.md)
+* [DNS](networking/dns.md)
+* [Firewall](networking/firewall.md)
+* [Switching](networking/switching.md)
+* [Wi-Fi routers](networking/wi-fi-routers.md)
+
+## Systems-Design
+
+* [Cache](systems-design/cache.md)
+* [Queue](systems-design/queue.md)
+* [Database](systems-design/database.md)
 
 ## CS-Concepts
 
 * [Compilers](cs-concepts/compilers.md)
 * [Errors](cs-concepts/errors.md)
+* [Input Validation](cs-concepts/input-validation.md)
 
 ## Security
 
+* [OWASP](security/owasp.md)
 * [CVEs](security/cves.md)
+* [Access Controll](security/access-controll.md)
+* [Fuzzers: DAST](security/fuzzers-dast.md)
+* [Security Testing](security/security-testing.md)
+* [Security Vulnerabilities](security/security-vulnerabilities.md)
+* [Pentesting Tools](security/pentesting-tools.md)
 
 ## Projects
 
@@ -87,12 +126,6 @@
 * [Email (SMTP / IMAP)](web-specifications/email-smtp-imap.md)
 * [ISO Model vs TCP/IP Model](web-specifications/iso-model-vs-tcp-ip-model.md)
 * [GraphQL](web-specifications/graphql.md)
-
-## cloud
-
-* [AWS](cloud/aws.md)
-* [Azure](cloud/azure.md)
-* [GCP: Google Cloud Platform](cloud/google-cloud-platform.md)
 
 ## Databases
 

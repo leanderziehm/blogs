@@ -18,6 +18,12 @@ Hello everyone! These are my notes. Think of this as a personal mini-wiki: a pla
 
 ## todo:
 
+proxy internet from my laptop to computer.
+
+github actions to lamda.
+
+use r2 clouldflare storage more.
+
 selfhost my own kubernetes cluster:\
 [https://github.com/kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 
@@ -29,8 +35,6 @@ add tags to filter by and search free text, auto scroll pagination?
 
 improve notes hosting:\
 notes fix sidebar nesting generation, capitalize all headers, maybe automatic syntax highlighting for code snippets
-
-
 
 selfhost:\
 umami (backup old database, create new vps), \
