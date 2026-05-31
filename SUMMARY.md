@@ -40,7 +40,7 @@
 
 * [git](terminal-cli-tools/git.md)
 * [tmux](terminal-cli-tools/tmux.md)
-* [ssh](terminal-cli-tools/ssh.md)
+* [SSH](terminal-cli-tools/ssh.md)
 * [vim](terminal-cli-tools/vim.md)
 * [Bash](terminal-cli-tools/bash.md)
 * [CLIs](terminal-cli-tools/clis/README.md)

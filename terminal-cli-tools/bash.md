@@ -14,6 +14,35 @@ description: Bourne Again SHell
 
 
 
+if:
+
+```
+if [ ! -f .env ]; then
+    echo hello
+elif podman compose version >/dev/null 2>&1; then
+    echo podman rocks!!
+else
+    echo bye
+fi
+```
+
+
+
+input prompt:
+
+```
+echo "Do you wish to install this program?"
+select yn in "Yes" "No"; do
+    case $yn in
+        Yes ) make install; break;;
+        No ) exit;;
+    esac
+done
+
+```
+
+
+
 
 
 #### Variables:

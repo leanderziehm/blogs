@@ -1,8 +1,39 @@
-# ssh
+# SSH
+
+
+
+
+
+## Generate Key
+
+run:
 
 ```
 ssh-keygen 
 ```
+
+change passphrase:
+
+```shell
+ssh-keygen -p -f ~/.ssh/id_ed25519
+```
+
+
+
+## SSH Config
+
+vim \~/.ssh/config
+
+```
+Host shortname
+    HostName 100.100.100.100
+    User ubuntu
+    IdentityFile ~/.ssh/private-key-filename.key
+```
+
+
+
+## Host SSH
 
 
 
@@ -23,7 +54,7 @@ chmod 600 ~/.ssh/authorized_keys
 chmod 700 ~/.ssh
 ```
 
-### Harden your SSH config
+### Harden your sshd config
 
 (optional: backup your config)
 
@@ -56,19 +87,6 @@ sudo systemctl restart sshd
 ```
 
 
-
-## SSH Config
-
-
-
-vim \~/.ssh/config
-
-```
-Host shortname
-    HostName 100.100.100.100
-    User ubuntu
-    IdentityFile ~/.ssh/private-key-filename.key
-```
 
 <br>
 
