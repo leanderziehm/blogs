@@ -9,11 +9,11 @@ sudo apt update && sudo apt upgrade -y
 you can install the packages on debian by running:\
 `sudo apt install put-packagename-here`&#x20;
 
-| Package        | Space Needed |
-| -------------- | ------------ |
-| podman-compose | 349 kB       |
-| arp-scan       | 17.8MB       |
-|                |              |
+| Package         | Space Needed |
+| --------------- | ------------ |
+| podman-compose  | 349 kB       |
+| arp-scan        | 17.8MB       |
+| git-filter-repo |              |
 
 | Package            | Approx. Size Installed | Dependencies (approx.) | Notes                    |
 | ------------------ | ---------------------- | ---------------------- | ------------------------ |

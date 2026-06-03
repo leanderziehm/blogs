@@ -1,10 +1,17 @@
+# SSH
 
-# Generate Key
+## Generate Key
 
 run:
 
 ```
 ssh-keygen 
+```
+
+secure algorithm:
+
+```
+ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
 change passphrase:
@@ -13,9 +20,7 @@ change passphrase:
 ssh-keygen -p -f ~/.ssh/id_ed25519
 ```
 
-
-
-# SSH Config
+## SSH Config
 
 vim \~/.ssh/config
 
@@ -26,43 +31,44 @@ Host shortname
     IdentityFile ~/.ssh/private-key-filename.key
 ```
 
+## SSH Agent
 
-# SSH Agent
 save you time with passphrase automation.
 
 check if your ssh agent is running:
+
 ```
 eval "$(ssh-agent -s)"
 ```
+
 add ssh key:
+
 ```
 ssh-add ~/.ssh/id_ed25519
 ```
+
 or set timeout period
+
 ```
 ssh-add -t 8h ~/.ssh/id_ed25519
 ```
 
-
 check loaded keys:
+
 ```
 ssh-add -l
 ```
 
+## Host SSH
 
-
-
-
-# Host SSH
-
-### Install SSH Server
+#### Install SSH Server
 
 ```
 sudo apt install ssh-server
 systemctl enable ssh
 ```
 
-### Setup Key Access
+#### Setup Key Access
 
 ```
 scp ~/.ssh/public-key.pub user@100.100.100.100:~
@@ -72,7 +78,7 @@ chmod 600 ~/.ssh/authorized_keys
 chmod 700 ~/.ssh
 ```
 
-### Harden your sshd config
+#### Harden your sshd config
 
 (optional: backup your config)
 
@@ -104,24 +110,6 @@ then restart ssh demon with
 sudo systemctl restart sshd
 ```
 
-
-
 <br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ***
