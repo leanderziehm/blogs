@@ -1,10 +1,5 @@
-# SSH
 
-
-
-
-
-## Generate Key
+# Generate Key
 
 run:
 
@@ -20,7 +15,7 @@ ssh-keygen -p -f ~/.ssh/id_ed25519
 
 
 
-## SSH Config
+# SSH Config
 
 vim \~/.ssh/config
 
@@ -32,10 +27,33 @@ Host shortname
 ```
 
 
+# SSH Agent
+save you time with passphrase automation.
 
-## Host SSH
+check if your ssh agent is running:
+```
+eval "$(ssh-agent -s)"
+```
+add ssh key:
+```
+ssh-add ~/.ssh/id_ed25519
+```
+or set timeout period
+```
+ssh-add -t 8h ~/.ssh/id_ed25519
+```
 
 
+check loaded keys:
+```
+ssh-add -l
+```
+
+
+
+
+
+# Host SSH
 
 ### Install SSH Server
 
