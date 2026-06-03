@@ -1,4 +1,4 @@
-# Install Packages
+# Linux Debian Packages
 
 update your system and packages:&#x20;
 
@@ -12,6 +12,7 @@ you can install the packages on debian by running:\
 | Package         | Space Needed |
 | --------------- | ------------ |
 | podman-compose  | 349 kB       |
+| python3-pip     |              |
 | arp-scan        | 17.8MB       |
 | git-filter-repo |              |
 

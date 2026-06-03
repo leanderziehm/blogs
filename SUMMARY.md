@@ -33,8 +33,6 @@
 * [Nginx setup](system-administration/nginx.md)
 * [Firewall](system-administration/firewall.md)
 * [Postgesql](system-administration/postgesql-on-linux.md)
-* [Linux Commands](system-administration/linux-commands.md)
-* [Install Packages](system-administration/install-packages.md)
 
 ## Terminal CLI Tools
 
@@ -49,12 +47,17 @@
 
 ## Linux
 
-* [Linux Dev Setup](linux/linux-dev-setup.md)
+* [Linux Users, Groups, Permissions](linux/linux-users.md)
+* [Page 1](linux/page-1.md)
+* [Page 2](linux/page-2.md)
+* [Linux File Paths](linux/linux-file-paths.md)
+* [Linux Commands](linux/linux-commands.md)
+* [Linux Debian Packages](linux/install-packages.md)
 * [Linux Scan Devices on Network](linux/network-devices.md)
-* [Linux Users](linux/linux-users.md)
-* [Linux Virtualization](linux/virtualization.md)
-* [Linux Power Settings](linux/suspend-mode.md)
 * [Linux Journal](linux/linux-journal.md)
+* [Other](linux/other/README.md)
+  * [Linux Power Settings](linux/other/suspend-mode.md)
+  * [Linux Virtualization](linux/other/virtualization.md)
 
 ## cloud
 

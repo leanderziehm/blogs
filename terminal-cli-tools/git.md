@@ -12,10 +12,6 @@ if the change was already pushed then you can use `git push -f` but its quite da
 
 
 
-
-
-
-
 basics:
 
 ```
@@ -23,10 +19,6 @@ git add .
 git commit -m "write commit message here"
 git push
 ```
-
-
-
-
 
 setup:
 
@@ -36,6 +28,12 @@ git config --global user.name "yourusername"
 ```
 
 
+
+
+
+```
+git filter-repo --path-glob '*.csv' --invert-paths
+```
 
 
 

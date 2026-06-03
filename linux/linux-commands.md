@@ -1,5 +1,7 @@
 # Linux Commands
 
+
+
 check free storage:
 
 ```
@@ -80,14 +82,15 @@ rsync -aHAX --progress -e "ssh -i /path/to/private_key" /source/ user@host:/dest
 
 
 
-
-
-
-
-
-
-
-
 dmesg | tail -50
 
 iscsiadm
+
+
+
+
+
+## Common
+
+ls -l
+
