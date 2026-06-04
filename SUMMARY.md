@@ -158,6 +158,7 @@
 * [Geography](world-knowlege/geography.md)
 * [Languages](world-knowlege/languages/README.md)
   * [English](world-knowlege/languages/english.md)
+  * [Latin](world-knowlege/languages/latin.md)
   * [Spanish](world-knowlege/languages/spanish.md)
   * [Chinese](world-knowlege/languages/chinese.md)
 * [Immune System](world-knowlege/immune-system.md)
