@@ -1,9 +1,20 @@
 # Keyboard Shortcuts
 
-## Intelij (custom mappings)
 
-<table><thead><tr><th width="141.42578125"></th><th width="165.886962890625">Effect</th><th width="461.8157958984375">Path</th></tr></thead><tbody><tr><td>Ctrl + Alt + S </td><td>Settings</td><td>File/Settings Actions/Settings...</td></tr><tr><td>Ctrl + J</td><td>Terminal toggle</td><td>Tool Windows/Terminal</td></tr><tr><td>Ctrl + /</td><td>Comment Line</td><td>Code/Comment Actions/Comment with Line Comment</td></tr><tr><td>Ctrl + P</td><td>Go to File</td><td>Navigate/Goto by Name Actions/Go to File...</td></tr><tr><td>Ctrl + Shift + P </td><td>Find Actions</td><td>Help/Find Action...</td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
+# Obsidian
 
+
+| Keys     | Effect           |
+| -------- | ---------------- |
+| Ctrl + , | Open Settings    |
+| Ctrl + O | Quick Open File  |
+| Ctrl + P | Command Pallete  |
+| Ctrl + N | New File         |
+|          |                  |
+| Ctrl + T | new tab          |
+| Ctrl + L | toggle checkbox  |
+| Ctrl + W | close tab        |
+| Ctrl + D | Delete Paragraph |
 
 
 ## VsCode
@@ -30,6 +41,13 @@
 | `Ctrl + K Ctrl + S`                    | Open keyboard shortcuts reference.           |
 | `Ctrl + Shift + [` / `]`               | Fold/unfold code block.                      |
 | `Ctrl + Shift + \`                     | Jump to matching bracket.                    |
+## Intelij (custom mappings)
+
+<table><thead><tr><th width="141.42578125"></th><th width="165.886962890625">Effect</th><th width="461.8157958984375">Path</th></tr></thead><tbody><tr><td>Ctrl + Alt + S </td><td>Settings</td><td>File/Settings Actions/Settings...</td></tr><tr><td>Ctrl + J</td><td>Terminal toggle</td><td>Tool Windows/Terminal</td></tr><tr><td>Ctrl + /</td><td>Comment Line</td><td>Code/Comment Actions/Comment with Line Comment</td></tr><tr><td>Ctrl + P</td><td>Go to File</td><td>Navigate/Goto by Name Actions/Go to File...</td></tr><tr><td>Ctrl + Shift + P </td><td>Find Actions</td><td>Help/Find Action...</td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
+
+
+
+
 
 
 

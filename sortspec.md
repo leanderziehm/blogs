@@ -1,0 +1,30 @@
+---
+sorting-spec: |2-
+    design-patterns
+    programming-languages
+    typescript
+    react
+    java
+    python
+    system-administration
+    terminal-cli-tools
+    clis
+    linux
+    cloud
+    data-science
+    networking
+    systems-design
+    cs-concepts
+    security
+    projects
+    web-specifications
+    http
+    databases
+    problem-solving
+    hci-human-computer-interface
+    file-formats
+    world-knowlege
+    languages
+    personal
+    ai
+---
