@@ -69,9 +69,10 @@
 * [Security Testing](security/security-testing.md)
 * [Security Vulnerabilities](security/security-vulnerabilities.md)
 * [Pentesting Tools](security/pentesting-tools.md)
-* [Web Enumeration](security/web-enumeration/README.md)
-  * [Nextcloud](security/web-enumeration/nextcloud.md)
-* [Self-Hosted-Software](security/self-hosted-software.md)
+* [Web Enumeration](security/web-enumeration.md)
+* [Self-Hosted-Software](security/self-hosted-software/README.md)
+  * [Nextcloud](security/self-hosted-software/nextcloud.md)
+* [Authentication vs Authorization](security/authentication-vs-authorization.md)
 
 ## cloud
 
