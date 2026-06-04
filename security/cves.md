@@ -1,5 +1,28 @@
 # CVEs
 
+## Automatic CVE Container Scanning Pipeline
+
+
+
+* **Trivy**: best overall for ease of use and broad coverage.
+* **Syft + Grype**: great if you want SBOM-first workflows and a modular setup.
+* **Clair**: solid if you want a more registry-centric scanner.
+* **GitLab container scanning**: useful if your pipeline already lives in GitLab.
+
+
+
+
+
+```
+podman run docker.io/aquasec/trivy
+```
+
+<br>
+
+
+
+
+
 ### Dataset Construction
 
 

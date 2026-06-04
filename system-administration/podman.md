@@ -68,6 +68,18 @@ podman exec -it pg16 bash
 
 
 
+***
+
+
+
+example oneliners:
+
+```
+podman run docker.io/library/debian:13
+```
+
+
+
 
 
 

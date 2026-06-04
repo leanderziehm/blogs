@@ -40,6 +40,7 @@
 * [tmux](terminal-cli-tools/tmux.md)
 * [SSH](terminal-cli-tools/ssh.md)
 * [vim](terminal-cli-tools/vim.md)
+* [nmap](terminal-cli-tools/nmap.md)
 * [Bash](terminal-cli-tools/bash.md)
 * [CLIs](terminal-cli-tools/clis/README.md)
   * [Chmod](terminal-cli-tools/clis/chmod.md)
@@ -58,6 +59,19 @@
 * [Other](linux/other/README.md)
   * [Linux Power Settings](linux/other/suspend-mode.md)
   * [Linux Virtualization](linux/other/virtualization.md)
+
+## Security
+
+* [OWASP](security/owasp.md)
+* [CVEs](security/cves.md)
+* [Access Controll](security/access-controll.md)
+* [Fuzzers: DAST](security/fuzzers-dast.md)
+* [Security Testing](security/security-testing.md)
+* [Security Vulnerabilities](security/security-vulnerabilities.md)
+* [Pentesting Tools](security/pentesting-tools.md)
+* [Web Enumeration](security/web-enumeration/README.md)
+  * [Nextcloud](security/web-enumeration/nextcloud.md)
+* [Self-Hosted-Software](security/self-hosted-software.md)
 
 ## cloud
 
@@ -103,16 +117,6 @@
 * [Compilers](cs-concepts/compilers.md)
 * [Errors](cs-concepts/errors.md)
 * [Input Validation](cs-concepts/input-validation.md)
-
-## Security
-
-* [OWASP](security/owasp.md)
-* [CVEs](security/cves.md)
-* [Access Controll](security/access-controll.md)
-* [Fuzzers: DAST](security/fuzzers-dast.md)
-* [Security Testing](security/security-testing.md)
-* [Security Vulnerabilities](security/security-vulnerabilities.md)
-* [Pentesting Tools](security/pentesting-tools.md)
 
 ## Projects
 
