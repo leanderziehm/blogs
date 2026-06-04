@@ -1,5 +1,8 @@
-.obsidian
 *.json
+# !community-plugins.json
+# !app.json
+
+
 *.mdc
 *.js
 *.css
