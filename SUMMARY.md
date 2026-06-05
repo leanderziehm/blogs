@@ -44,7 +44,7 @@
 * [Bash](terminal-cli-tools/bash.md)
 * [CLIs](terminal-cli-tools/clis/README.md)
   * [Chmod](terminal-cli-tools/clis/chmod.md)
-  * [Find](terminal-cli-tools/clis/find.md)
+  * [find & grep](terminal-cli-tools/clis/find.md)
 
 ## Linux
 

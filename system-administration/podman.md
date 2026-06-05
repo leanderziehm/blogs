@@ -80,6 +80,11 @@ podman run docker.io/library/debian:13
 
 
 
+```
+podman pull docker.io/kalilinux/kali-rolling
+podman inspect --format='{{index .RepoDigests 0}}' kalilinux/kali-rolling
+```
+
 
 
 
