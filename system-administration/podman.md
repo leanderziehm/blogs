@@ -8,31 +8,9 @@ I liked docker but when researching more about securety the systematic design of
 sudo apt install podman
 ```
 
-```
-sudo apt install podman-compose
-```
-
-
-
-## Setup
-
-if you want smoother docker compatebility change the config to default to docker repos:
-
-```
-sudo vim /etc/containers/registries.conf
-```
-
-```
-unqualified-search-registries = ["docker.io"]
-```
-
-
-
 
 
 ## Commands
-
-
 
 ```
 podman run --name pg16 \
@@ -64,7 +42,13 @@ podman logs pg16
 podman exec -it pg16 bash
 ```
 
+```
+podman inspect wordpress-stack_db_1 | grep -i MYSQL
+```
 
+```
+podman exec -e MYSQL_PWD=password-here wordpress-stack_db_1 mysqldump -u user-here --single-transaction --routines --triggers --no-tablespaces databse-here > wordpress_backup.sql
+```
 
 
 
@@ -90,6 +74,26 @@ podman inspect --format='{{index .RepoDigests 0}}' kalilinux/kali-rolling
 
 
 ## Podman Compose Examples:
+
+```
+sudo apt install podman-compose
+```
+
+todo
+
+
+
+## Setup docker repos
+
+if you want smoother docker compatebility change the config to default to docker repos:
+
+```
+sudo vim /etc/containers/registries.conf
+```
+
+```
+unqualified-search-registries = ["docker.io"]
+```
 
 
 

@@ -45,6 +45,7 @@
 * [CLIs](terminal-cli-tools/clis/README.md)
   * [Chmod](terminal-cli-tools/clis/chmod.md)
   * [find & grep](terminal-cli-tools/clis/find.md)
+  * [tar zip](terminal-cli-tools/clis/tar-zip.md)
 
 ## Linux
 
@@ -53,7 +54,7 @@
 * [Page 2](linux/page-2.md)
 * [Linux File Paths](linux/linux-file-paths.md)
 * [Linux Commands](linux/linux-commands.md)
-* [Linux Debian Packages](linux/install-packages.md)
+* [Linux Install Packages](linux/install-packages.md)
 * [Linux Scan Devices on Network](linux/network-devices.md)
 * [Linux Journal](linux/linux-journal.md)
 * [Other](linux/other/README.md)
@@ -141,6 +142,7 @@
 * [Database Migration](databases/database-migration.md)
 * [Database Normalization](databases/database-normalization.md)
 * [Sqlite](databases/sqlite.md)
+* [MySQL](databases/mysql.md)
 
 ## Problem Solving
 

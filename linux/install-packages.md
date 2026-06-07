@@ -1,4 +1,26 @@
-# Linux Debian Packages
+# Linux Install Packages
+
+
+
+
+
+
+
+## RHEL
+
+
+
+
+
+
+
+
+
+
+
+## Debian
+
+
 
 update your system and packages:&#x20;
 
@@ -9,12 +31,13 @@ sudo apt update && sudo apt upgrade -y
 you can install the packages on debian by running:\
 `sudo apt install put-packagename-here`&#x20;
 
-| Package         | Space Needed |
-| --------------- | ------------ |
-| podman-compose  | 349 kB       |
-| python3-pip     |              |
-| arp-scan        | 17.8MB       |
-| git-filter-repo |              |
+| Package               | Space Needed |
+| --------------------- | ------------ |
+| podman-compose        | 349 kB       |
+| python3-pip           |              |
+| arp-scan              | 17.8MB       |
+| git-filter-repo       |              |
+| mariadb-client-compat | 83.1 MB      |
 
 | Package            | Approx. Size Installed | Dependencies (approx.) | Notes                    |
 | ------------------ | ---------------------- | ---------------------- | ------------------------ |
