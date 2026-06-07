@@ -49,7 +49,7 @@
 ## Linux
 
 * [Linux Users, Groups, Permissions](linux/linux-users.md)
-* [Page 1](linux/page-1.md)
+* [Linux Distros](linux/page-1.md)
 * [Page 2](linux/page-2.md)
 * [Linux File Paths](linux/linux-file-paths.md)
 * [Linux Commands](linux/linux-commands.md)
