@@ -19,6 +19,7 @@
   * [Testing](programming-languages/typescript/testing.md)
   * [Angular](programming-languages/typescript/angular.md)
   * [Astro](programming-languages/typescript/astro.md)
+* [Go](programming-languages/go.md)
 * [Java](programming-languages/java/README.md)
   * [Spring Boot Java](programming-languages/java/spring-boot.md)
 * [Python](programming-languages/python/README.md)
@@ -46,6 +47,7 @@
   * [Chmod](terminal-cli-tools/clis/chmod.md)
   * [find & grep](terminal-cli-tools/clis/find.md)
   * [tar zip](terminal-cli-tools/clis/tar-zip.md)
+  * [scp rsync](terminal-cli-tools/clis/scp-rsync.md)
 
 ## Linux
 
