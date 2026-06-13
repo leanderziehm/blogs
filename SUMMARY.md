@@ -34,16 +34,16 @@
 
 * [Linux Install Packages](linux/install-packages.md)
 * [Clean Storage](linux/page-2.md)
+* [Linux Systemd & Journal](linux/linux-journal.md)
+* [Linux Folders & Logs](linux/linux-folders-and-logs.md)
 * [Linux Users, Groups, Permissions](linux/linux-users.md)
-* [Linux Distros](linux/page-1.md)
-* [Linux File Paths](linux/linux-file-paths.md)
-* [Linux Commands](linux/linux-commands.md)
 * [Linux Scan Devices on Network](linux/network-devices.md)
-* [Linux Journal](linux/linux-journal.md)
+* [Linux Proxy](linux/linux-proxy.md)
+* [Linux Commands](linux/linux-commands.md)
+* [Linux Distros](linux/page-1.md)
 * [Other](linux/other/README.md)
   * [Linux Power Settings](linux/other/suspend-mode.md)
   * [Linux Virtualization](linux/other/virtualization.md)
-* [Linux Proxy](linux/linux-proxy.md)
 
 ## Terminal CLI Tools
 

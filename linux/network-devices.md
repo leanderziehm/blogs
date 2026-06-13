@@ -1,9 +1,9 @@
-# Network Devices
+# Linux Scan Devices on Network
 
 options to discover all hosts in the current network:
 
 ```
-arp-scan -l
+sudo arp-scan -l
 ```
 
 ```

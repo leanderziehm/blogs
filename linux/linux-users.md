@@ -23,6 +23,18 @@ sudo usermod -aG google-sudoers username
 
 
 
+***
+
+SUDO
+
+
+
+```
+sudo -i
+```
+
+
+
 
 
 ***
