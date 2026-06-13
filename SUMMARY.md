@@ -4,11 +4,6 @@
 
 * [Welcome to My Notes](README.md)
 
-## Design-Patterns
-
-* [Design-Patterns](design-patterns/design-patterns.md)
-* [Ports and Adapters](design-patterns/ports-and-adapters.md)
-
 ## Programming-Languages
 
 * [Typescript](programming-languages/typescript/README.md)
@@ -35,6 +30,21 @@
 * [Firewall](system-administration/firewall.md)
 * [Postgesql](system-administration/postgesql-on-linux.md)
 
+## Linux
+
+* [Linux Install Packages](linux/install-packages.md)
+* [Clean Storage](linux/page-2.md)
+* [Linux Users, Groups, Permissions](linux/linux-users.md)
+* [Linux Distros](linux/page-1.md)
+* [Linux File Paths](linux/linux-file-paths.md)
+* [Linux Commands](linux/linux-commands.md)
+* [Linux Scan Devices on Network](linux/network-devices.md)
+* [Linux Journal](linux/linux-journal.md)
+* [Other](linux/other/README.md)
+  * [Linux Power Settings](linux/other/suspend-mode.md)
+  * [Linux Virtualization](linux/other/virtualization.md)
+* [Linux Proxy](linux/linux-proxy.md)
+
 ## Terminal CLI Tools
 
 * [git](terminal-cli-tools/git.md)
@@ -49,19 +59,15 @@
   * [tar zip](terminal-cli-tools/clis/tar-zip.md)
   * [scp rsync](terminal-cli-tools/clis/scp-rsync.md)
 
-## Linux
+## cloud
 
-* [Linux Users, Groups, Permissions](linux/linux-users.md)
-* [Linux Distros](linux/page-1.md)
-* [Page 2](linux/page-2.md)
-* [Linux File Paths](linux/linux-file-paths.md)
-* [Linux Commands](linux/linux-commands.md)
-* [Linux Install Packages](linux/install-packages.md)
-* [Linux Scan Devices on Network](linux/network-devices.md)
-* [Linux Journal](linux/linux-journal.md)
-* [Other](linux/other/README.md)
-  * [Linux Power Settings](linux/other/suspend-mode.md)
-  * [Linux Virtualization](linux/other/virtualization.md)
+* [AWS](cloud/aws.md)
+* [Azure](cloud/azure.md)
+* [GCP: Google Cloud Platform](cloud/google-cloud-platform.md)
+* [Oracle](cloud/oracle.md)
+* [Cloudflare](cloud/cloudflare.md)
+* [Supabase](cloud/supabase.md)
+* [Github Actions](cloud/github-actions.md)
 
 ## Security
 
@@ -77,15 +83,13 @@
   * [Nextcloud](security/self-hosted-software/nextcloud.md)
 * [Authentication vs Authorization](security/authentication-vs-authorization.md)
 
-## cloud
+## Databases
 
-* [AWS](cloud/aws.md)
-* [Azure](cloud/azure.md)
-* [GCP: Google Cloud Platform](cloud/google-cloud-platform.md)
-* [Oracle](cloud/oracle.md)
-* [Cloudflare](cloud/cloudflare.md)
-* [Supabase](cloud/supabase.md)
-* [Github Actions](cloud/github-actions.md)
+* [Databases Overview](databases/databases.md)
+* [Database Migration](databases/database-migration.md)
+* [Database Normalization](databases/database-normalization.md)
+* [Sqlite](databases/sqlite.md)
+* [MySQL](databases/mysql.md)
 
 ## Data-Science
 
@@ -116,15 +120,16 @@
 * [Queue](systems-design/queue.md)
 * [Database](systems-design/database.md)
 
+## Design-Patterns
+
+* [Design-Patterns](design-patterns/design-patterns.md)
+* [Ports and Adapters](design-patterns/ports-and-adapters.md)
+
 ## CS-Concepts
 
 * [Compilers](cs-concepts/compilers.md)
 * [Errors](cs-concepts/errors.md)
 * [Input Validation](cs-concepts/input-validation.md)
-
-## Projects
-
-* [Project: Personal Tracker](projects/project-personal-tracker.md)
 
 ## Web-Specifications
 
@@ -138,13 +143,9 @@
 * [ISO Model vs TCP/IP Model](web-specifications/iso-model-vs-tcp-ip-model.md)
 * [GraphQL](web-specifications/graphql.md)
 
-## Databases
+## Projects
 
-* [Databases Overview](databases/databases.md)
-* [Database Migration](databases/database-migration.md)
-* [Database Normalization](databases/database-normalization.md)
-* [Sqlite](databases/sqlite.md)
-* [MySQL](databases/mysql.md)
+* [Project: Personal Tracker](projects/project-personal-tracker.md)
 
 ## Problem Solving
 

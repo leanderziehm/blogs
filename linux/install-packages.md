@@ -51,3 +51,11 @@ you can install the packages on debian by running:\
 | xinit (desktop)    | 36.1 MB                | —                      | X session starter        |
 | sudo               | 6.8 MB                 | —                      | Privilege escalation     |
 | iputils-ping       | 2.8 MB                 | 3                      | Includes libidn2, etc.   |
+|                    |                        |                        |                          |
+|                    |                        |                        |                          |
+
+| Package |
+| ------- |
+| mininet |
+|         |
+|         |
