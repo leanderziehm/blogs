@@ -1,5 +1,36 @@
 # Linux Commands
 
+```
+pstree
+```
+
+
+
+```
+ss -tulpn
+```
+
+* `-t` = TCP
+* `-u` = UDP
+* `-l` = listening ports
+* `-p` = process
+* `-n` = numeric (no DNS lookup)
+
+
+
+```
+last
+```
+
+```
+who
+w
+```
+
+
+
+
+
 
 
 check free storage:

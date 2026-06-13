@@ -21,6 +21,7 @@
   * [Setup](programming-languages/python/setup.md)
   * [Python Language Features](programming-languages/python/python-language-features.md)
   * [Memory Inspection](programming-languages/python/memory-inspection.md)
+  * [Package Managers](programming-languages/python/package-managers.md)
 * [SQL](programming-languages/sql.md)
 
 ## System-Administration
@@ -32,6 +33,7 @@
 
 ## Linux
 
+* [Linux Commands](linux/linux-commands.md)
 * [Linux Install Packages](linux/install-packages.md)
 * [Clean Storage](linux/page-2.md)
 * [Linux Systemd & Journal](linux/linux-journal.md)
@@ -39,7 +41,6 @@
 * [Linux Users, Groups, Permissions](linux/linux-users.md)
 * [Linux Scan Devices on Network](linux/network-devices.md)
 * [Linux Proxy](linux/linux-proxy.md)
-* [Linux Commands](linux/linux-commands.md)
 * [Linux Distros](linux/page-1.md)
 * [Other](linux/other/README.md)
   * [Linux Power Settings](linux/other/suspend-mode.md)

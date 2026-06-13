@@ -12,6 +12,28 @@ sudo apt install podman
 
 ## Commands
 
+example oneliners:
+
+```
+podman run -it docker.io/library/debian:13 /bin/bash
+```
+
+```
+podman run -it --systemd=always --privileged docker.io/library/debian:13 /bin/bash
+```
+
+```
+podman inspect wordpress-stack_db_1 | grep -i MYSQL
+```
+
+```
+podman ps -a
+```
+
+```
+podman exec -it <container_id_or_name> /bin/bash
+```
+
 ```
 podman run --name pg16 \
   -e POSTGRES_PASSWORD=postgres \
@@ -23,15 +45,15 @@ podman run --name pg16 \
 ```
 
 ```
+podman volume ls
+```
+
+```
 podman cp full_recovery_20260530_160846.sql pg16:/tmp/dump.sql
 ```
 
 ```
 podman exec -it pg16 psql -U postgres -f /tmp/dump.sql
-```
-
-```
-podman ps -a
 ```
 
 ```
@@ -43,33 +65,15 @@ podman exec -it pg16 bash
 ```
 
 ```
-podman inspect wordpress-stack_db_1 | grep -i MYSQL
-```
-
-```
 podman exec -e MYSQL_PWD=password-here wordpress-stack_db_1 mysqldump -u user-here --single-transaction --routines --triggers --no-tablespaces databse-here > wordpress_backup.sql
 ```
 
-
-
 ***
-
-
-
-example oneliners:
-
-```
-podman run docker.io/library/debian:13
-```
-
-
 
 ```
 podman pull docker.io/kalilinux/kali-rolling
 podman inspect --format='{{index .RepoDigests 0}}' kalilinux/kali-rolling
 ```
-
-
 
 
 

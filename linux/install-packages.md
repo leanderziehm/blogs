@@ -1,26 +1,6 @@
 # Linux Install Packages
 
-
-
-
-
-
-
-## RHEL
-
-
-
-
-
-
-
-
-
-
-
 ## Debian
-
-
 
 update your system and packages:&#x20;
 
@@ -38,6 +18,7 @@ you can install the packages on debian by running:\
 | arp-scan              | 17.8MB       |
 | git-filter-repo       |              |
 | mariadb-client-compat | 83.1 MB      |
+| htop                  | 434 kB       |
 
 | Package            | Approx. Size Installed | Dependencies (approx.) | Notes                    |
 | ------------------ | ---------------------- | ---------------------- | ------------------------ |
@@ -51,7 +32,7 @@ you can install the packages on debian by running:\
 | xinit (desktop)    | 36.1 MB                | —                      | X session starter        |
 | sudo               | 6.8 MB                 | —                      | Privilege escalation     |
 | iputils-ping       | 2.8 MB                 | 3                      | Includes libidn2, etc.   |
-|                    |                        |                        |                          |
+| curl               | 21 MB                  |                        |                          |
 |                    |                        |                        |                          |
 
 | Package |
@@ -59,3 +40,6 @@ you can install the packages on debian by running:\
 | mininet |
 |         |
 |         |
+
+## RHEL
+
