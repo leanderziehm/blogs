@@ -1,8 +1,18 @@
-# Wi-Fi routers
+# Hardware
+
+
+
+## Switch
+
+
+
+
+
+## Wifi Routers
+
+
 
 Access Point
-
-
 
 2.4 GHz vs 5 GHz vs 6 GHz
 

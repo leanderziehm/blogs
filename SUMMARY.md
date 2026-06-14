@@ -30,6 +30,7 @@
 * [Nginx setup](system-administration/nginx.md)
 * [Firewall](system-administration/firewall.md)
 * [Postgesql](system-administration/postgesql-on-linux.md)
+* [Grafana Stack](system-administration/grafana-stack.md)
 
 ## Linux
 
@@ -45,6 +46,19 @@
 * [Other](linux/other/README.md)
   * [Linux Power Settings](linux/other/suspend-mode.md)
   * [Linux Virtualization](linux/other/virtualization.md)
+
+## Networking
+
+* [Networking](networking/networking.md)
+* [ISO Model vs TCP/IP Model](networking/iso-model-vs-tcp-ip-model.md)
+* [Simulation Emulation](networking/simulation-emulation.md)
+* [VPN](networking/vpn.md)
+* [Firewall](networking/firewall.md)
+* [Proxies](networking/proxies.md)
+* [DHCP NAT](networking/dhcp-nat.md)
+* [Hardware](networking/hardware.md)
+* [Email (SMTP / IMAP)](networking/email-smtp-imap.md)
+* [DNS](networking/dns.md)
 
 ## Terminal CLI Tools
 
@@ -103,17 +117,15 @@
 * [Data-Science-Tools](data-science/data-science-tools.md)
 * [BI Dashboard Tools](data-science/bi-dashboard-tools.md)
 
-## Networking
+## Application Layer
 
-* [Proxy Server](networking/proxy-server.md)
-* [Reverse Proxy](networking/reverse-proxy.md)
-* [VPN](networking/vpn.md)
-* [DHCP](networking/dhcp.md)
-* [NAT](networking/nat.md)
-* [DNS](networking/dns.md)
-* [Firewall](networking/firewall.md)
-* [Switching](networking/switching.md)
-* [Wi-Fi routers](networking/wi-fi-routers.md)
+* [GraphQL](application-layer/graphql.md)
+* [OpenAPI](application-layer/openapi.md)
+* [MIME Media types](application-layer/media-types.md)
+* [7 HTTP(S)](application-layer/http/README.md)
+  * [HTTP Status Codes](application-layer/http/http-status-codes.md)
+  * [HTTP Methods](application-layer/http/http-methos.md)
+  * [HTTP Headers Security](application-layer/http/http-headers-security.md)
 
 ## Systems-Design
 
@@ -131,18 +143,6 @@
 * [Compilers](cs-concepts/compilers.md)
 * [Errors](cs-concepts/errors.md)
 * [Input Validation](cs-concepts/input-validation.md)
-
-## Web-Specifications
-
-* [OpenAPI](web-specifications/openapi.md)
-* [MIME Media types](web-specifications/media-types.md)
-* [HTTP](web-specifications/http/README.md)
-  * [HTTP Status Codes](web-specifications/http/http-status-codes.md)
-  * [HTTP Methods](web-specifications/http/http-methos.md)
-  * [HTTP Headers Security](web-specifications/http/http-headers-security.md)
-* [Email (SMTP / IMAP)](web-specifications/email-smtp-imap.md)
-* [ISO Model vs TCP/IP Model](web-specifications/iso-model-vs-tcp-ip-model.md)
-* [GraphQL](web-specifications/graphql.md)
 
 ## Projects
 
@@ -181,3 +181,4 @@
 ## AI
 
 * [Free AI Code-Agents](ai/ai-web-app-creators.md)
+* [Voice & Video](ai/voice-and-video.md)
