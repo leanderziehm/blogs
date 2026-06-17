@@ -74,7 +74,7 @@
   * [tar zip](terminal-cli-tools/clis/tar-zip.md)
   * [scp rsync](terminal-cli-tools/clis/scp-rsync.md)
 
-## cloud
+## Cloud
 
 * [AWS](cloud/aws.md)
 * [Azure](cloud/azure.md)
