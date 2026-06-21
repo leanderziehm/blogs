@@ -1,9 +1,27 @@
 # Node.js
 
+```
+pnpm init
+pnpm add -D typescript @types/node tsx
+pnpm add fastify
+pnpm add @fastify/swagger @fastify/swagger-ui
+pnpm add @fastify/autoload
+pnpm add @fastify/cors
+
+pnpm add pg
+```
+
 
 
 ```
-pnpm init
+```
+
+
+
+
+
+```
+
 
 pnpm install @asteasolutions/zod-to-openapi
 pnpm add express zod swagger-ui-express 
