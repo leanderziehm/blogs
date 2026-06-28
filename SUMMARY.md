@@ -7,6 +7,8 @@
 ## Full-Stack
 
 * [Tech Stack](full-stack/tech-stack.md)
+* [React](full-stack/react.md)
+* [Node.js](full-stack/node.js-express.md)
 
 ## Projects
 
@@ -16,9 +18,6 @@
 ## Programming-Languages
 
 * [Typescript](programming-languages/typescript/README.md)
-  * [Node.js](programming-languages/typescript/node.js-express.md)
-  * [React](programming-languages/typescript/react/README.md)
-    * [React vs HTML](programming-languages/typescript/react/react-vs-html.md)
   * [Javascript](programming-languages/typescript/javascript.md)
   * [Testing](programming-languages/typescript/testing.md)
   * [Angular](programming-languages/typescript/angular.md)
@@ -197,3 +196,7 @@
 
 * [Windows](os/windows.md)
 * [Android](os/android.md)
+
+## Eponymous-Laws
+
+* [Page 1](eponymous-laws/page-1.md)

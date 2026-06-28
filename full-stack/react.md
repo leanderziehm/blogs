@@ -1,10 +1,40 @@
-# React vs HTML
+# React
+
+## Docs:
+
+[https://react.dev/learn](https://react.dev/learn)
+
+
+
+## Vite
+
+```
+pnpm create vite
+```
+
+```
+pnpm run dev
+```
+
+```
+pnpm i react-router-dom
+```
+
+
+
+
+
+
+
+
+
+## React vs HTML
 
 When copying plain HTML into React, several things can “break” because React uses JSX, which looks like HTML but follows JavaScript rules underneath.
 
 Here are the main incompatibilities and gotchas:
 
-## 1. `class` → `className`
+### 1. `class` → `className`
 
 HTML:
 
