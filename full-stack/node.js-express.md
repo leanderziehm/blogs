@@ -1,5 +1,20 @@
 # Node.js
 
+
+
+```
+npm init
+npm add -D typescript
+npm add -D @types/node
+npm add fastify
+npm add @fastify/swagger @fastify/swagger-ui
+npm add @fastify/autoload
+npm add @fastify/cors
+npm add pg
+```
+
+
+
 ```
 pnpm init
 pnpm add -D typescript

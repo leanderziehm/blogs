@@ -14,6 +14,18 @@ sudo apt install podman
 
 example oneliners:
 
+
+
+```
+podman images
+```
+
+```
+podman system df
+```
+
+
+
 ```
 podman run -it docker.io/library/debian:13 /bin/bash
 ```
