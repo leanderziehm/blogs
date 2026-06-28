@@ -1,5 +1,7 @@
 # Tech Stack
 
+[https://github.com/leanderziehm/typescript-skeleton-react-nodejs](https://github.com/leanderziehm/typescript-skeleton-react-nodejs)
+
 ## Database:
 
 postgres orm: prisma keysley migration: pgroll

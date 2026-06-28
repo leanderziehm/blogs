@@ -29,14 +29,23 @@
 
 ### Chrome:
 
-| Keyboard         | Action                  |
-| ---------------- | ----------------------- |
-| Ctrl + T         | New Tab                 |
-| Ctrl + Tab       | Next Tab                |
-|                  |                         |
-| Ctrl + Shift + J | Devtools: Open Console  |
-| Ctrl + Shift + C | Devtools: Open Elements |
-|                  |                         |
+| Keyboard               | Action                         |
+| ---------------------- | ------------------------------ |
+| Ctrl + T               | New Tab                        |
+| Ctrl + L               | Focus url bar                  |
+| Ctrl + E               | Search from url bar            |
+| Ctrl + Tab             | Next Tab                       |
+| Ctrl + Shift + Tab     | Previous Tab                   |
+| Ctrl + W               | Close Tab                      |
+| Ctrl + Shift + J       | Devtools: Open Console         |
+| Ctrl + Shift + C       | Devtools: Open Elements        |
+| Ctrl + Shift + T       | repoen last closed tab         |
+| Ctrl + 1..9            | select tab                     |
+| Ctrl + R               | Reload Page                    |
+| Ctrl + Shift + R       | Hot Reload Page (ignore cache) |
+| Ctrl + F then Ctrl + G | Find next match                |
+| Ctrl + D               | Bookmakrk page                 |
+|                        |                                |
 
 
 

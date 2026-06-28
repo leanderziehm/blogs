@@ -9,6 +9,7 @@
 * [Tech Stack](full-stack/tech-stack.md)
 * [React](full-stack/react.md)
 * [Node.js](full-stack/node.js-express.md)
+* [Container Images](full-stack/container-images.md)
 
 ## Projects
 

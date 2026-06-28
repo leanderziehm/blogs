@@ -2,17 +2,97 @@
 
 ```
 pnpm init
-pnpm add -D typescript @types/node tsx
+pnpm add -D typescript
+pnpm add -D @types/node
 pnpm add fastify
 pnpm add @fastify/swagger @fastify/swagger-ui
 pnpm add @fastify/autoload
 pnpm add @fastify/cors
-
 pnpm add pg
 ```
 
 
 
+
+
+```
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "module": "NodeNext",
+
+    "strict": false,
+      //  "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+
+    "lib": ["es2022"],
+
+    "target": "es2022", // "target": "esnext",
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": true,
+    "esModuleInterop": true,
+    // "allowImportingTsExtensions":true
+    "removeComments": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/*.spec.ts", "**/old/**"]
+}
+```
+
+```
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    // File Layout
+    // "rootDir": "./src",
+    // "outDir": "./dist",
+
+    // Environment Settings
+    // See also https://aka.ms/tsconfig/module
+    "module": "nodenext",
+    "target": "esnext",
+    "types": [],
+    // For nodejs:
+    // "lib": ["esnext"],
+    // "types": ["node"],
+    // and npm install -D @types/node
+
+    // Other Outputs
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // Stricter Typechecking Options
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    // Style Options
+    // "noImplicitReturns": true,
+    // "noImplicitOverride": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    // "noFallthroughCasesInSwitch": true,
+    // "noPropertyAccessFromIndexSignature": true,
+
+    // Recommended Options
+    "strict": true,
+    "jsx": "react-jsx",
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+  }
+}
+
+```
+
 ```
 ```
 
@@ -21,7 +101,7 @@ pnpm add pg
 
 
 ```
-
+pnpm add -D tsx
 
 pnpm install @asteasolutions/zod-to-openapi
 pnpm add express zod swagger-ui-express 
