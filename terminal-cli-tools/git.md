@@ -10,6 +10,15 @@ git reset --soft HEAD~1
 
 if the change was already pushed then you can use `git push -f` but its quite dangerous because it could delete progress of other contributors so be careful when using force push.
 
+```
+git reset --hard HEAD~1
+git logs
+```
+
+
+
+
+
 basics:
 
 ```

@@ -37,6 +37,24 @@ sudo -i
 
 
 
+sudo useradd -m llmaicode\
+sudo passwd llmaicode
+
+su - llmaicode\
+su - alice
+
+https://www.debian.org/distrib/
+
+authorized\_keys
+
+
+
+i am on debian and i am just about to give someone i don't trust access to my computer with user privilges how to make it so that i can see all actions they do, accept or reject their sudo request per notification have a snapshot before they got access to role back and see diff what they added after snapshot for audit
+
+i guess qemu vm with kvm i will do to have it more isolated and code as infra or setup reproducable and the stuff you say just give me all commands i need to do to install and setup and thne makefile and other setups
+
+
+
 ***
 
 

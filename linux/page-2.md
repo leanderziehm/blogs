@@ -1,4 +1,18 @@
-# Clean Storage
+# Linux Clean Storage
+
+
+
+clean trash:
+
+```
+sudo rm -rf /root/.local/share/Trash/*
+```
+
+`ncdu`
+
+
+
+
 
 1. `sudo apt autoremove -y`
 2. `sudo apt clean`

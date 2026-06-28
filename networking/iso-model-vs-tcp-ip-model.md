@@ -2,6 +2,10 @@
 
 
 
+tcp splits by mtu
+
+
+
 ## IP&#x20;
 
 Source IP\

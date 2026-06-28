@@ -1,5 +1,15 @@
 # CLIs
 
+`nmtui`
+
+## Rclone
+
+debain doesnt support mega so donwload from website
+
+rclone sync mega: \~/sync/mega
+
+
+
 ## find:
 
 

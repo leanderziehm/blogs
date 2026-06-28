@@ -4,6 +4,15 @@
 
 * [Welcome to My Notes](README.md)
 
+## Full-Stack
+
+* [Tech Stack](full-stack/tech-stack.md)
+
+## Projects
+
+* [Project: Personal Tracker](projects/project-personal-tracker.md)
+* [Deployed Projects](projects/deployed-projects.md)
+
 ## Programming-Languages
 
 * [Typescript](programming-languages/typescript/README.md)
@@ -19,9 +28,9 @@
   * [Spring Boot Java](programming-languages/java/spring-boot.md)
 * [Python](programming-languages/python/README.md)
   * [Setup](programming-languages/python/setup.md)
+  * [Pip and uv](programming-languages/python/pip-and-uv.md)
   * [Python Language Features](programming-languages/python/python-language-features.md)
   * [Memory Inspection](programming-languages/python/memory-inspection.md)
-  * [Package Managers](programming-languages/python/package-managers.md)
 * [SQL](programming-languages/sql.md)
 
 ## System-Administration
@@ -30,22 +39,24 @@
 * [Nginx setup](system-administration/nginx.md)
 * [Firewall](system-administration/firewall.md)
 * [Postgesql](system-administration/postgesql-on-linux.md)
-* [Grafana Stack](system-administration/grafana-stack.md)
+* [Grafana Stack LGTM](system-administration/grafana-stack.md)
+* [Elastic Search ELK Stack](system-administration/elastic-search-elk-stack.md)
 
 ## Linux
 
 * [Linux Workflow](linux/linux-workflow.md)
+* [Linux IP](linux/linux-ip.md)
 * [Linux Commands](linux/linux-commands.md)
 * [Linux Install Packages](linux/install-packages.md)
 * [Linux Environment Variables](linux/linux-environment-variables.md)
-* [Clean Storage](linux/page-2.md)
+* [Linux Clean Storage](linux/page-2.md)
 * [Linux Systemd & Journal](linux/linux-journal.md)
 * [Linux Folders & Logs](linux/linux-folders-and-logs.md)
 * [Linux Users, Groups, Permissions](linux/linux-users.md)
 * [Linux Scan Devices on Network](linux/network-devices.md)
 * [Linux Proxy](linux/linux-proxy.md)
 * [Linux Distros](linux/page-1.md)
-* [Other](linux/other/README.md)
+* [Other Linux Topics](linux/other/README.md)
   * [Linux Power Settings](linux/other/suspend-mode.md)
   * [Linux Virtualization](linux/other/virtualization.md)
 
@@ -108,17 +119,6 @@
 * [Sqlite](databases/sqlite.md)
 * [MySQL](databases/mysql.md)
 
-## Data-Science
-
-* [Coding](data-science/coding.md)
-* [Excel](data-science/excel.md)
-* [Forcasting](data-science/forcasting.md)
-* [DuckDB](data-science/duckdb.md)
-* [ETL](data-science/etl.md)
-* [Databricks](data-science/databricks.md)
-* [Data-Science-Tools](data-science/data-science-tools.md)
-* [BI Dashboard Tools](data-science/bi-dashboard-tools.md)
-
 ## Application Layer
 
 * [GraphQL](application-layer/graphql.md)
@@ -146,9 +146,16 @@
 * [Errors](cs-concepts/errors.md)
 * [Input Validation](cs-concepts/input-validation.md)
 
-## Projects
+## Data-Science
 
-* [Project: Personal Tracker](projects/project-personal-tracker.md)
+* [Coding](data-science/coding.md)
+* [Excel](data-science/excel.md)
+* [Forcasting](data-science/forcasting.md)
+* [DuckDB](data-science/duckdb.md)
+* [ETL](data-science/etl.md)
+* [Databricks](data-science/databricks.md)
+* [Data-Science-Tools](data-science/data-science-tools.md)
+* [BI Dashboard Tools](data-science/bi-dashboard-tools.md)
 
 ## Problem Solving
 

@@ -1,5 +1,13 @@
 # Postgesql
 
+todo:
+
+migrations, expand contract.
+
+
+
+
+
 ## Install
 
 ```
