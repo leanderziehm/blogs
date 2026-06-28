@@ -184,3 +184,9 @@
 
 * [Free AI Code-Agents](ai/ai-web-app-creators.md)
 * [Voice & Video](ai/voice-and-video.md)
+* [AI LLMs](ai/ai-llms.md)
+
+## OS
+
+* [Windows](os/windows.md)
+* [Android](os/android.md)
