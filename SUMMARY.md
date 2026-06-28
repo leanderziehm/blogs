@@ -199,4 +199,4 @@
 
 ## Eponymous-Laws
 
-* [Page 1](eponymous-laws/page-1.md)
+* [Eponymous Laws](eponymous-laws/eponymous-laws.md)
