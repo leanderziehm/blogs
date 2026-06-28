@@ -76,7 +76,7 @@
 ## Terminal CLI Tools
 
 * [git](terminal-cli-tools/git.md)
-* [tmux](terminal-cli-tools/tmux.md)
+* [Tmux](terminal-cli-tools/tmux.md)
 * [SSH](terminal-cli-tools/ssh.md)
 * [vim](terminal-cli-tools/vim.md)
 * [nmap](terminal-cli-tools/nmap.md)

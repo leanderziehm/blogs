@@ -1,4 +1,36 @@
-# tmux
+# Tmux
+
+```
+tmux new -s mysession
+```
+
+```
+tmux a -t mysession
+```
+
+<table data-search="false"><thead><tr><th>Description</th><th>Keyboard</th></tr></thead><tbody><tr><td>side bar pane/panel</td><td>Ctrl+b + %</td></tr><tr><td>bottom pane/terminal</td><td>Ctrl + b + "</td></tr><tr><td>Next Pane</td><td>Ctrl + b + o</td></tr><tr><td>Switch Layout</td><td>Ctrl + b + Space</td></tr><tr><td>Next window</td><td>Ctrl + b + n</td></tr><tr><td>Previous window</td><td>Ctrl + b + p</td></tr><tr><td>Previous Pane</td><td>Ctrl + b + ;</td></tr><tr><td>select pane</td><td>Ctrl + b + 1,2,3 ...</td></tr><tr><td>close pane/panel</td><td>Ctrl + b + x</td></tr><tr><td>new window</td><td>Ctrl + b + c </td></tr><tr><td>view sessions</td><td>Ctrl + b + s</td></tr><tr><td>last window</td><td>Ctrl + b + l</td></tr><tr><td>copy mode</td><td>Ctrl + b + [</td></tr><tr><td>keys</td><td>Ctrl + b + ?</td></tr><tr><td>close windows and panes </td><td>exit</td></tr><tr><td>show time</td><td>Ctrl + b + t</td></tr><tr><td>choose window from list</td><td>Ctrl + b + w</td></tr><tr><td>zoom pane full screen</td><td>Ctrl + b + z</td></tr><tr><td>Last Session</td><td>Ctrl + b + L</td></tr><tr><td>show messages</td><td>Ctrl + b + ~ </td></tr><tr><td>pane into new window</td><td>Ctrl + b + !</td></tr><tr><td>command</td><td>Ctrl + b + :</td></tr><tr><td>Evenly size panes</td><td>Ctrl + b + E</td></tr></tbody></table>
+
+```
+:set mouse on
+```
+
+
+
+
+
+
+
+
+
+
+
+***
+
+
+
+
+
+
 
 attach instead of always creating a new session:
 

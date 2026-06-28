@@ -11,13 +11,15 @@ ping -i 0.01 10.0.0.2
 On PC A:
 
 ```
-sudo ip addr add 192.168.10.1/24 dev eth0sudo ip link set eth0 up
+sudo ip addr add 192.168.10.1/24 dev eth0
+sudo ip link set eth0 up
 ```
 
 On PC B:
 
 ```
-sudo ip addr add 192.168.10.2/24 dev eth0sudo ip link set eth0 up
+sudo ip addr add 192.168.10.2/24 dev eth0
+sudo ip link set eth0 up
 ```
 
 Test:

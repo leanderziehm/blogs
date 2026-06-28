@@ -1,5 +1,20 @@
 # Keyboard Shortcuts
 
+## Simplenote
+
+| Keyboard         | Action                          |
+| ---------------- | ------------------------------- |
+| Ctrl + Shift + S | Search Bar Focus                |
+| Ctrl + Shift + J | view note below down (vim keys) |
+| Ctrl + Shift + K | view note above up (vim keys)   |
+| Ctrl + K         | Command Palatte                 |
+| Ctrl + Shift + F | Focus mode Toggle               |
+| Ctrl + /         | Keyboard Shortcut List          |
+
+
+
+
+
 ## Obsidian
 
 | Keys     | Action           |
