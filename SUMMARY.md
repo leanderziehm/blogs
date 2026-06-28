@@ -34,8 +34,10 @@
 
 ## Linux
 
+* [Linux Workflow](linux/linux-workflow.md)
 * [Linux Commands](linux/linux-commands.md)
 * [Linux Install Packages](linux/install-packages.md)
+* [Linux Environment Variables](linux/linux-environment-variables.md)
 * [Clean Storage](linux/page-2.md)
 * [Linux Systemd & Journal](linux/linux-journal.md)
 * [Linux Folders & Logs](linux/linux-folders-and-logs.md)
@@ -46,7 +48,6 @@
 * [Other](linux/other/README.md)
   * [Linux Power Settings](linux/other/suspend-mode.md)
   * [Linux Virtualization](linux/other/virtualization.md)
-* [Linux Environment Variables](linux/linux-environment-variables.md)
 
 ## Networking
 
