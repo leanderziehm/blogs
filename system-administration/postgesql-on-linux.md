@@ -1,13 +1,5 @@
 # Postgesql
 
-todo:
-
-migrations, expand contract.
-
-
-
-
-
 ## Install
 
 ```
@@ -30,6 +22,18 @@ sudo -iu postgres createuser --interactive\
 sudo -iu postgres createdb mydb\
 psql -U myuser -d mydb
 
+
+
+```
+CREATE ROLE myapp_user
+ALTER USER myapp_user WITH PASSWORD 'new_password';
+
+CREATE DATABASE myapp_db
+OWNER myapp_user;
+```
+
+
+
 ## Change passowrd
 
 ```
@@ -47,6 +51,16 @@ sudo systemctl restart postgresql
 
 ```
 sudo -iu postgres psql -c "ALTER USER postgres WITH PASSWORD 'newpassword';"
+```
+
+## Connect
+
+```
+REVOKE CONNECT ON DATABASE analytics FROM PUBLIC;
+GRANT CONNECT ON DATABASE analytics TO analytics_user;
+
+REVOKE CONNECT ON DATABASE odoo FROM PUBLIC;
+GRANT CONNECT ON DATABASE odoo TO odoo_user;
 ```
 
 ## Expose Postgres Publicly
@@ -194,6 +208,151 @@ data:
 
 
 
+todo:
+
+migrations, expand contract.
+
+
+
+
+
+## Securety and Isolation
+
+
+
+```
+
+WITH
+db_privs AS (
+    SELECT
+        'DATABASE' AS object_type,
+        datname AS object_name,
+        NULL::text AS schema_name,
+        NULL::text AS detail,
+        has_database_privilege(current_user, datname, 'CONNECT') AS can_connect,
+        has_database_privilege(current_user, datname, 'CREATE') AS can_create,
+        has_database_privilege(current_user, datname, 'TEMP') AS can_temp
+    FROM pg_database
+),
+
+role_privs AS (
+    SELECT
+        'ROLE' AS object_type,
+        rolname AS object_name,
+        NULL::text AS schema_name,
+        (
+            'superuser=' || rolsuper ||
+            ', createdb=' || rolcreatedb ||
+            ', createrole=' || rolcreaterole ||
+            ', bypassrls=' || rolbypassrls ||
+            ', login=' || rolcanlogin
+        ) AS detail,
+        NULL::boolean AS can_connect,
+        NULL::boolean AS can_create,
+        NULL::boolean AS can_temp
+    FROM pg_roles
+    WHERE rolname = current_user
+),
+
+schema_privs AS (
+    SELECT
+        'SCHEMA' AS object_type,
+        nspname AS object_name,
+        nspname AS schema_name,
+        NULL::text AS detail,
+        has_schema_privilege(current_user, nspname, 'USAGE') AS can_connect,
+        has_schema_privilege(current_user, nspname, 'CREATE') AS can_create,
+        NULL::boolean AS can_temp
+    FROM pg_namespace
+    WHERE nspname NOT IN ('pg_catalog', 'information_schema')
+),
+
+
+
+func_privs AS (
+    SELECT
+        'FUNCTION_SECURITY_DEFINER' AS object_type,
+        p.proname AS object_name,
+        n.nspname AS schema_name,
+        'security_definer=true' AS detail,
+        NULL::boolean AS can_connect,
+        NULL::boolean AS can_create,
+        NULL::boolean AS can_temp
+    FROM pg_proc p
+    JOIN pg_namespace n ON n.oid = p.pronamespace
+    WHERE p.prosecdef = true
+),
+
+ext_privs AS (
+    SELECT
+        'EXTENSION' AS object_type,
+        extname AS object_name,
+        extnamespace::regnamespace::text AS schema_name,
+        'owned_by=' || extowner::regrole::text AS detail,
+        NULL::boolean,
+        NULL::boolean,
+        NULL::boolean
+    FROM pg_extension
+)
+
+SELECT *
+FROM db_privs
+
+UNION ALL
+SELECT * FROM role_privs
+UNION ALL
+SELECT * FROM schema_privs
+UNION ALL
+SELECT * FROM func_privs
+UNION ALL
+SELECT * FROM ext_privs
+
+ORDER BY object_type, schema_name NULLS FIRST, object_name;
+```
+
+
+
+```
+SELECT
+  current_user,
+  (SELECT count(*) FROM pg_database) AS db_count,
+  (SELECT count(*) FROM pg_roles) AS role_count,
+  (SELECT count(*) FROM pg_namespace) AS schema_count;
+```
+
+
+
+```
+SELECT datname,
+       has_database_privilege(current_user, datname, 'CONNECT') AS can_connect,
+       has_database_privilege(current_user, datname, 'CREATE') AS can_create,
+       has_database_privilege(current_user, datname, 'TEMP') AS can_temp
+FROM pg_database
+ORDER BY datname;
+```
+
+```
+SELECT rolname,
+       rolsuper,
+       rolcreatedb,
+       rolcreaterole,
+       rolreplication,
+       rolbypassrls,
+       rolcanlogin
+FROM pg_roles
+ORDER BY rolname;
+```
+
+
+
+
+
+
+
+
+
+***
+
 
 
 ## psql
@@ -201,6 +360,8 @@ data:
 ```
 psql -h domain.example.com -U postgresUser -d postgresDatabase
 ```
+
+
 
 
 
