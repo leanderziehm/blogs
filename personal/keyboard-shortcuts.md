@@ -47,6 +47,29 @@
 | Ctrl + D               | Bookmakrk page                 |
 |                        |                                |
 
+## Google Sheets
+
+| Keyboard                    | Action                       |
+| --------------------------- | ---------------------------- |
+| Ctrl + Shift + S            | Voice Typing                 |
+| Alt + /                     | Search Menues                |
+| Ctrl + /                    | Keyboard Shortcuts Sheet     |
+| Ctrl + Shift + X            | Context menu                 |
+| Ctrl + ' (oe)               | prev misspelling             |
+| Ctrl + ; (oa)               | next misspelling             |
+| Ctrl + Alt + N and 1..6     | go to next heading 1         |
+| Ctrl + Alt + F              | Insert Footer                |
+| Ctrl + Shift + L or E or R  | Align text Left cEnter Right |
+| Ctrl + Shift + Y            | Word Dictionary              |
+| Ctrl + H                    | Find Replace                 |
+| Ctrl + B                    | Bold                         |
+| Ctrl + U                    | Underline                    |
+| Alt + Shift + K             | Kaps small                   |
+| Alt + Shift + %             | Strike Line Trough Text      |
+| Ctrl + .                    | Start Supertscript           |
+| Ctrl + ,                    | Start Subscript              |
+| Ctrl + Space                | Clear Formatting             |
+
 
 
 ## Simplenote
