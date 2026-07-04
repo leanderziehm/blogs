@@ -17,12 +17,9 @@ sudo rm -rf /root/.local/share/Trash/*
 1. `sudo apt autoremove -y`
 2. `sudo apt clean`
 3. `sudo apt autoclean`
-
-#### Remove unused packages
-
-6. `sudo apt autoremove --purge -y`
-7. `dpkg -l | awk '/^rc/ {print $2}'`
-8. `sudo apt purge $(dpkg -l | awk '/^rc/ {print $2}') -y`
+4. `sudo apt autoremove --purge -y`
+5. `dpkg -l | awk '/^rc/ {print $2}'`
+6. `sudo apt purge $(dpkg -l | awk '/^rc/ {print $2}') -y`
 
 #### Cache cleanup
 
@@ -56,9 +53,9 @@ sudo rm -rf /root/.local/share/Trash/*
 
 #### Docker cleanup (if installed)
 
-24. `docker system prune -af`
-25. `docker volume prune -f`
-26. `docker image prune -af`
+24. `podman system prune -af`
+25. `podman volume prune -f`
+26. `podman image prune -af`
 
 #### Package metadata & orphaned cleanup
 

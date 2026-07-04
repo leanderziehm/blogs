@@ -84,8 +84,9 @@
 * [CLIs](terminal-cli-tools/clis/README.md)
   * [Chmod](terminal-cli-tools/clis/chmod.md)
   * [find & grep](terminal-cli-tools/clis/find.md)
-  * [tar zip](terminal-cli-tools/clis/tar-zip.md)
+  * [zip and tar](terminal-cli-tools/clis/tar-zip.md)
   * [scp rsync](terminal-cli-tools/clis/scp-rsync.md)
+  * [pdf](terminal-cli-tools/clis/pdf.md)
 
 ## Cloud
 

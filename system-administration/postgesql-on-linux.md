@@ -345,9 +345,15 @@ ORDER BY rolname;
 
 
 
+```
+REVOKE CONNECT ON DATABASE postgres FROM PUBLIC;
+```
 
 
 
+```
+GRANT CONNECT ON DATABASE odoo TO odoo_user;
+```
 
 
 
@@ -362,6 +368,10 @@ psql -h domain.example.com -U postgresUser -d postgresDatabase
 ```
 
 
+
+```
+ psql -U postgresUser -h  domain.example.com  -d postgresDatabase -c "\copy public.texts(timestamp, text) FROM 'texts.csv' WITH (FORMAT csv)"
+```
 
 
 

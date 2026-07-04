@@ -1,4 +1,16 @@
-# tar zip
+# zip and tar
+
+
+
+zip with password
+
+```
+zip -r -e p4_ssh.zip p4_ssh
+```
+
+
+
+
 
 ```
 tar -czf zipped_name.tar.gz file.name
