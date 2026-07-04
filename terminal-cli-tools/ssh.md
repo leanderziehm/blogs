@@ -110,6 +110,146 @@ then restart ssh demon with
 sudo systemctl restart sshd
 ```
 
+
+
+## SSH Tunneling User
+
+
+
+## 1. Create a dedicated user
+
+```
+sudo adduser ssh_port_tunneling_user
+```
+
+Set a password (you can also disable password auth later and use keys only).
+
+```
+openssl rand -base64 64
+```
+
+***
+
+
+
+***
+
+## 3. Create SSH directory
+
+```
+sudo mkdir -p /home/ssh_port_tunneling_user/.ssh
+sudo chmod 700 /home/ssh_port_tunneling_user/.ssh
+sudo chown ssh_port_tunneling_user:ssh_port_tunneling_user /home/ssh_port_tunneling_user/.ssh
+```
+
+***
+
+## 4. Add SSH public key (recommended)
+
+On your client machine:
+
+```
+ssh-keygen -t ed25519
+```
+
+add key to:
+
+```
+sudo vim /home/ssh_port_tunneling_user/.ssh/authorized_keys
+```
+
+
+
+Then fix permissions:
+
+```
+sudo chmod 600 /home/ssh_port_tunneling_user/.ssh/authorized_keys
+sudo chown ssh_port_tunneling_user:ssh_port_tunneling_user /home/ssh_port_tunneling_user/.ssh/authorized_keys
+```
+
+
+
+
+
+***
+
+
+
+
+
+## 5. Restrict SSH to port forwarding only
+
+Edit SSH config:
+
+```
+sudo vim /etc/ssh/sshd_config
+```
+
+Add at the bottom:
+
+```
+Match User ssh_port_tunneling_user    AllowTcpForwarding yes    X11Forwarding no    PermitTTY no    ForceCommand /bin/false
+```
+
+#### Important meaning:
+
+* `AllowTcpForwarding yes` → allows tunnels
+* `PermitTTY no` → no interactive session
+* `ForceCommand /bin/false` → blocks shell completely
+* only SSH tunnel traffic works
+
+***
+
+## 6. (Stronger) restrict which ports can be forwarded
+
+If you want tighter security:
+
+```
+Match User ssh_port_tunneling_user    AllowTcpForwarding yes    PermitOpen 127.0.0.1:9200 127.0.0.1:5601    PermitTTY no    ForceCommand /bin/false
+```
+
+This ensures the user can ONLY tunnel to Elasticsearch/Kibana.
+
+***
+
+## 7. Restart SSH
+
+```
+sudo systemctl restart ssh
+```
+
+***
+
+## 8. Test SSH tunnel from a remote machine
+
+#### Tunnel Elasticsearch:
+
+```
+ssh -i ~/.ssh/id_ed25519 \-L 9200:localhost:9200 \es_tunnel@your-server-ip
+```
+
+Now locally on your client:
+
+```
+curl http://localhost:9200
+```
+
+***
+
+#### Tunnel Kibana:
+
+```
+ssh -i ~/.ssh/id_ed25519 \-L 5601:localhost:5601 \es_tunnel@your-server-ip
+```
+
+Then open:
+
+```
+http://localhost:5601
+```
+
+
+
 <br>
 
 ***
