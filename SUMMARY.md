@@ -196,7 +196,8 @@
 ## OS
 
 * [Windows](os/windows.md)
-* [Android](os/android.md)
+* [Android](os/android/README.md)
+  * [Android App: Termux](os/android/android-app-termux.md)
 
 ## Eponymous-Laws
 

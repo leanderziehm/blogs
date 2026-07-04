@@ -27,6 +27,18 @@ podman system df
 
 
 ```
+podman run -it --entrypoint sh localhost/api-kv:latest
+```
+
+```
+podman kill $(podman ps -q)
+```
+
+
+
+
+
+```
 podman run -it docker.io/library/debian:13 /bin/bash
 ```
 

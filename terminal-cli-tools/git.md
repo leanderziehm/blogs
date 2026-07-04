@@ -53,7 +53,7 @@ sometimes vscode does a bunch of requests to the git server with the wrong crede
 
 ## Tips
 
-when using ssh with passphrase `ssh-add` can save time. [ssh](terminal-cli-tools/ssh.md)
+when using ssh with passphrase `ssh-add` can save time. [ssh](https://github.com/LeanderZiehm/blogs/blob/main/terminal-cli-tools/terminal-cli-tools/ssh.md)
 
 [ssh](ssh.md)
 

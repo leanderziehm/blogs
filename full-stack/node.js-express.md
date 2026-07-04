@@ -1,7 +1,5 @@
 # Node.js
 
-
-
 ```
 npm init
 npm add -D typescript
@@ -12,6 +10,59 @@ npm add @fastify/autoload
 npm add @fastify/cors
 npm add pg
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+### update dependencies:
+
+```
+npx npm-check-updates -u
+npm install
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
