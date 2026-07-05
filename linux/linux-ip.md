@@ -8,6 +8,46 @@ ping -i 0.01 10.0.0.2
 
 
 
+```
+sudo sysctl -w net.ipv4.ip_forward=1
+```
+
+```
+echo "net.ipv4.ip_forward=1" | sudo tee /etc/sysctl.d/99-hotspot.conf
+sudo sysctl --system
+```
+
+
+
+```
+sudo iptables -t nat -A POSTROUTING -o UPSTREAM_IFACE -j MASQUERADE
+```
+
+
+
+```
+#!/usr/bin/env bash
+
+echo "Setting IPv6 preference in system..."
+
+sudo sysctl -w net.ipv6.conf.all.disable_ipv6=0
+sudo sysctl -w net.ipv6.conf.default.disable_ipv6=0
+
+# Prefer IPv6 over IPv4 when both exist
+echo "net.ipv6.conf.all.accept_ra=2" | sudo tee /etc/sysctl.d/40-ipv6.conf
+echo "net.ipv6.conf.default.accept_ra=2" | sudo tee -a /etc/sysctl.d/40-ipv6.conf
+
+sudo sysctl --system
+
+echo "IPv6 preference enabled."
+```
+
+
+
+
+
+
+
 On PC A:
 
 ```
