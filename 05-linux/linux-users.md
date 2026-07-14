@@ -1,13 +1,24 @@
 # Linux Users, Groups, Permissions
 
-Add new user:
+## Add user:
+
+```
+sudo useradd -m -s /bin/bash secret_holder
+sudo passwd secret_holder
+```
+
+```
+ls -ld /home/secret_holder
+```
+
+
 
 ```bash
 useradd -m -G wheel -s /bin/bash username
 passwd username
 ```
 
-Give sudo permissions:
+## Give sudo permissions:
 
 make sure you have sudo installed and if it doest work try:
 
@@ -21,17 +32,39 @@ add user to group:
 sudo usermod -aG google-sudoers username
 ```
 
-
-
 ***
 
-SUDO
 
 
+## Switch user
+
+```
+sudo -iu secret_holder
+```
+
+root
 
 ```
 sudo -i
 ```
+
+## Check Loggedin Users:
+
+```
+who
+```
+
+```
+w
+```
+
+
+
+
+
+
+
+
 
 
 
@@ -47,17 +80,11 @@ https://www.debian.org/distrib/
 
 authorized\_keys
 
-
-
 i am on debian and i am just about to give someone i don't trust access to my computer with user privilges how to make it so that i can see all actions they do, accept or reject their sudo request per notification have a snapshot before they got access to role back and see diff what they added after snapshot for audit
 
 i guess qemu vm with kvm i will do to have it more isolated and code as infra or setup reproducable and the stuff you say just give me all commands i need to do to install and setup and thne makefile and other setups
 
-
-
 ***
-
-
 
 ### 1) Users
 
@@ -154,9 +181,6 @@ Meaning:
 
 ***
 
-
-
 * Users = identity
 * Groups = shared access buckets
 * Permissions = what each bucket can do to files
-

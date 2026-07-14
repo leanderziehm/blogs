@@ -1,14 +1,10 @@
 # Python
 
-
-
 ## Raise Exceptions:
 
 ```
 raise Exception("Sorry, no numbers below zero")
 ```
-
-
 
 ## Fastapi
 
@@ -23,11 +19,7 @@ async def custom_swagger_ui():
 
 ```
 
-
-
-
-
-## Pandas&#x20;
+## Pandas
 
 ```
 import pandas as pd
@@ -66,9 +58,7 @@ summary_df = dataframe_summary(df)
 summary_df
 ```
 
-
-
-## VsCode Debugger settings&#x20;
+## VsCode Debugger settings
 
 ```
 {
@@ -116,3 +106,13 @@ summary_df
 
 
 
+
+
+```
+all:
+	[ ! -d "venv" ] && python -m venv venv && venv/bin/pip install -r requirements.txt; set -a && . ./.env && set +a && venv/bin/uvicorn main:app --reload
+
+
+run:
+	uvicorn main:app --port 8803
+```

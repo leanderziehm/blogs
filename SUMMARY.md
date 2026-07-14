@@ -11,10 +11,11 @@
 * [Node.js](01-full-stack/node.js-express.md)
 * [Container Images](01-full-stack/container-images.md)
 
-## 02-Projects
+## Projects
 
-* [Project: Personal Tracker](02-projects/project-personal-tracker.md)
-* [Deployed Projects](02-projects/deployed-projects.md)
+* [Mini Tasks/Project Ideas](projects/mini-tasks-project-ideas.md)
+* [Deployed Projects](projects/deployed-projects.md)
+* [Project: Personal Tracker](projects/project-personal-tracker.md)
 
 ## 03-Programming-Languages
 
@@ -44,6 +45,8 @@
 
 ## 05-Linux
 
+* [Linux Users, Groups, Permissions](05-linux/linux-users.md)
+* [Linux Encryption Secrets Passwords](05-linux/linux-encryption-secrets-passwords.md)
 * [Linux Workflow](05-linux/linux-workflow.md)
 * [Linux IP](05-linux/linux-ip.md)
 * [Linux Commands](05-linux/linux-commands.md)
@@ -52,7 +55,6 @@
 * [Linux Clean Storage](05-linux/page-2.md)
 * [Linux Systemd & Journal](05-linux/linux-journal.md)
 * [Linux Folders & Logs](05-linux/linux-folders-and-logs.md)
-* [Linux Users, Groups, Permissions](05-linux/linux-users.md)
 * [Linux Scan Devices on Network](05-linux/network-devices.md)
 * [Linux Proxy](05-linux/linux-proxy.md)
 * [Linux Distros](05-linux/page-1.md)
@@ -60,11 +62,10 @@
   * [Linux Power Settings](05-linux/other/suspend-mode.md)
   * [Linux Virtualization](05-linux/other/virtualization.md)
 * [Linux Process Memory](05-linux/linux-process-memory.md)
-* [Linux Encryption Secrets Passwords](05-linux/linux-encryption-secrets-passwords.md)
 
-## 06-Reverse-Engineering
+## Reverse-Engineering
 
-* [Ghidra](06-reverse-engineering/ghidra.md)
+* [Ghidra](reverse-engineering/ghidra.md)
 
 ## 07-Networking
 
