@@ -2,8 +2,10 @@
 
 ## Main:
 
-\
-tr -dc 'A-Za-z0-9' < /dev/urandom | head -c 64; echo\
+```
+tr -dc 'A-Za-z0-9' < /dev/urandom | head -c 64; echo
+```
+
 Others:\
 openssl rand -base64 18\
 python3 -c "import secrets; print(secrets.token\_urlsafe(24))"\
