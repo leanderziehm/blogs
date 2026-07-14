@@ -166,7 +166,7 @@
 ## World-Knowlege
 
 * [Geography](world-knowlege/geography/README.md)
-  * [EU Europe](world-knowlege/geography/eu-europe.md)
+  * [EU Member States vs Europe](world-knowlege/geography/eu-member-states-vs-europe.md)
 * [Languages](world-knowlege/languages/README.md)
   * [English](world-knowlege/languages/english.md)
   * [Latin](world-knowlege/languages/latin.md)

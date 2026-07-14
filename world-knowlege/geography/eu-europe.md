@@ -1,5 +1,0 @@
-# EU Europe
-
-
-
-"expr": "{**name**=\~".+"}"
