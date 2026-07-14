@@ -59,6 +59,12 @@
 * [Other Linux Topics](linux/other/README.md)
   * [Linux Power Settings](linux/other/suspend-mode.md)
   * [Linux Virtualization](linux/other/virtualization.md)
+* [Linux Process Memory](linux/linux-process-memory.md)
+* [Linux Encryption Secrets Passwords](linux/linux-encryption-secrets-passwords.md)
+
+## Reverse-Engineering
+
+* [Ghidra](reverse-engineering/ghidra.md)
 
 ## Networking
 
