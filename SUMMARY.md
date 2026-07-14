@@ -62,6 +62,7 @@
   * [Linux Power Settings](05-linux/other/suspend-mode.md)
   * [Linux Virtualization](05-linux/other/virtualization.md)
 * [Linux Process Memory](05-linux/linux-process-memory.md)
+* [Linux Stats Info](05-linux/linux-stats-info.md)
 
 ## Reverse-Engineering
 
