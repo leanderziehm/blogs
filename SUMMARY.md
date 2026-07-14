@@ -94,91 +94,72 @@
   * [scp rsync](08-terminal-cli-tools/clis/scp-rsync.md)
   * [pdf](08-terminal-cli-tools/clis/pdf.md)
 
-## Cloud
+## 09-Security
 
-* [AWS](cloud/aws.md)
-* [Azure](cloud/azure.md)
-* [GCP: Google Cloud Platform](cloud/google-cloud-platform.md)
-* [Oracle](cloud/oracle.md)
-* [Cloudflare](cloud/cloudflare.md)
-* [Supabase](cloud/supabase.md)
-* [Github Actions](cloud/github-actions.md)
+* [OWASP](09-security/owasp.md)
+* [CVEs](09-security/cves.md)
+* [Access Controll](09-security/access-controll.md)
+* [Fuzzers: DAST](09-security/fuzzers-dast.md)
+* [Security Testing](09-security/security-testing.md)
+* [Security Vulnerabilities](09-security/security-vulnerabilities.md)
+* [Pentesting Tools](09-security/pentesting-tools.md)
+* [Web Enumeration](09-security/web-enumeration.md)
+* [Self-Hosted-Software](09-security/self-hosted-software/README.md)
+  * [Nextcloud](09-security/self-hosted-software/nextcloud.md)
+* [Authentication vs Authorization](09-security/authentication-vs-authorization.md)
 
-## Security
+## 10-Cloud
 
-* [OWASP](security/owasp.md)
-* [CVEs](security/cves.md)
-* [Access Controll](security/access-controll.md)
-* [Fuzzers: DAST](security/fuzzers-dast.md)
-* [Security Testing](security/security-testing.md)
-* [Security Vulnerabilities](security/security-vulnerabilities.md)
-* [Pentesting Tools](security/pentesting-tools.md)
-* [Web Enumeration](security/web-enumeration.md)
-* [Self-Hosted-Software](security/self-hosted-software/README.md)
-  * [Nextcloud](security/self-hosted-software/nextcloud.md)
-* [Authentication vs Authorization](security/authentication-vs-authorization.md)
-
-## Databases
-
-* [Databases Overview](databases/databases.md)
-* [Database Migration](databases/database-migration.md)
-* [Database Normalization](databases/database-normalization.md)
-* [Sqlite](databases/sqlite.md)
-* [MySQL](databases/mysql.md)
-
-## Application Layer
-
-* [GraphQL](application-layer/graphql.md)
-* [OpenAPI](application-layer/openapi.md)
-* [MIME Media types](application-layer/media-types.md)
-* [7 HTTP(S)](application-layer/http/README.md)
-  * [HTTP Status Codes](application-layer/http/http-status-codes.md)
-  * [HTTP Methods](application-layer/http/http-methos.md)
-  * [HTTP Headers Security](application-layer/http/http-headers-security.md)
-
-## Systems-Design
-
-* [Cache](systems-design/cache.md)
-* [Queue](systems-design/queue.md)
-* [Database](systems-design/database.md)
-
-## Design-Patterns
-
-* [Design-Patterns](design-patterns/design-patterns.md)
-* [Ports and Adapters](design-patterns/ports-and-adapters.md)
+* [AWS](10-cloud/aws.md)
+* [Azure](10-cloud/azure.md)
+* [GCP: Google Cloud Platform](10-cloud/google-cloud-platform.md)
+* [Oracle](10-cloud/oracle.md)
+* [Cloudflare](10-cloud/cloudflare.md)
+* [Supabase](10-cloud/supabase.md)
+* [Github Actions](10-cloud/github-actions.md)
 
 ## CS-Concepts
 
+* [Databases](cs-concepts/databases.md)
 * [Compilers](cs-concepts/compilers.md)
 * [Errors](cs-concepts/errors.md)
 * [Input Validation](cs-concepts/input-validation.md)
-
-## Data-Science
-
-* [Coding](data-science/coding.md)
-* [Excel](data-science/excel.md)
-* [Forcasting](data-science/forcasting.md)
-* [DuckDB](data-science/duckdb.md)
-* [ETL](data-science/etl.md)
-* [Databricks](data-science/databricks.md)
-* [Data-Science-Tools](data-science/data-science-tools.md)
-* [BI Dashboard Tools](data-science/bi-dashboard-tools.md)
+* [File formats](cs-concepts/file-formats/README.md)
+  * [Makefile](cs-concepts/file-formats/makefile.md)
+  * [YAML](cs-concepts/file-formats/yaml.md)
+  * [JSON](cs-concepts/file-formats/json.md)
+  * [HTML](cs-concepts/file-formats/html.md)
+* [Application Layer Protocolls](cs-concepts/application-layer-protocolls/README.md)
+  * [OpenAPI](cs-concepts/application-layer-protocolls/openapi.md)
+  * [GraphQL](cs-concepts/application-layer-protocolls/graphql.md)
+  * [MIME Media types](cs-concepts/application-layer-protocolls/media-types.md)
+  * [7 HTTP(S)](cs-concepts/application-layer-protocolls/http/README.md)
+    * [HTTP Status Codes](cs-concepts/application-layer-protocolls/http/http-status-codes.md)
+    * [HTTP Methods](cs-concepts/application-layer-protocolls/http/http-methos.md)
+    * [HTTP Headers Security](cs-concepts/application-layer-protocolls/http/http-headers-security.md)
+* [System Design](cs-concepts/system-design/README.md)
+  * [Database](cs-concepts/system-design/database.md)
+  * [Cache](cs-concepts/system-design/cache.md)
+  * [Queue](cs-concepts/system-design/queue.md)
+* [Design-Patterns](cs-concepts/design-patterns/README.md)
+  * [Design-Patterns](cs-concepts/design-patterns/design-patterns.md)
+  * [Ports and Adapters](cs-concepts/design-patterns/ports-and-adapters.md)
+* [HCI](cs-concepts/hci/README.md)
+  * [Latency Perception](cs-concepts/hci/latency-perception.md)
+* [Datascience](cs-concepts/datascience/README.md)
+  * [Coding](cs-concepts/datascience/coding.md)
+  * [Excel](cs-concepts/datascience/excel.md)
+  * [Forcasting](cs-concepts/datascience/forcasting.md)
+  * [DuckDB](cs-concepts/datascience/duckdb.md)
+  * [ETL](cs-concepts/datascience/etl.md)
+  * [Databricks](cs-concepts/datascience/databricks.md)
+  * [Data-Science-Tools](cs-concepts/datascience/data-science-tools.md)
+  * [BI Dashboard Tools](cs-concepts/datascience/bi-dashboard-tools.md)
 
 ## Problem Solving
 
 * [Problem Solving](problem-solving/problem-solving.md)
 * [Reasoning](problem-solving/reasoning.md)
-
-## HCI: Human Computer Interface
-
-* [Latency Perception](hci-human-computer-interface/latency-perception.md)
-
-## File-Formats
-
-* [Makefile](file-formats/makefile.md)
-* [YAML](file-formats/yaml.md)
-* [JSON](file-formats/json.md)
-* [HTML](file-formats/html.md)
 
 ## World-Knowlege
 
