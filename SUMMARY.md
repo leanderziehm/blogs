@@ -4,95 +4,95 @@
 
 * [Welcome to My Notes](README.md)
 
-## Full-Stack
+## 01-Full-Stack
 
-* [Tech Stack](full-stack/tech-stack.md)
-* [React](full-stack/react.md)
-* [Node.js](full-stack/node.js-express.md)
-* [Container Images](full-stack/container-images.md)
+* [Tech Stack](01-full-stack/tech-stack.md)
+* [React](01-full-stack/react.md)
+* [Node.js](01-full-stack/node.js-express.md)
+* [Container Images](01-full-stack/container-images.md)
 
-## Projects
+## 02-Projects
 
-* [Project: Personal Tracker](projects/project-personal-tracker.md)
-* [Deployed Projects](projects/deployed-projects.md)
+* [Project: Personal Tracker](02-projects/project-personal-tracker.md)
+* [Deployed Projects](02-projects/deployed-projects.md)
 
-## Programming-Languages
+## 03-Programming-Languages
 
-* [Typescript](programming-languages/typescript/README.md)
-  * [Javascript](programming-languages/typescript/javascript.md)
-  * [Testing](programming-languages/typescript/testing.md)
-  * [Angular](programming-languages/typescript/angular.md)
-  * [Astro](programming-languages/typescript/astro.md)
-* [Go](programming-languages/go.md)
-* [Java](programming-languages/java/README.md)
-  * [Spring Boot Java](programming-languages/java/spring-boot.md)
-* [Python](programming-languages/python/README.md)
-  * [Setup](programming-languages/python/setup.md)
-  * [Pip and uv](programming-languages/python/pip-and-uv.md)
-  * [Python Language Features](programming-languages/python/python-language-features.md)
-  * [Memory Inspection](programming-languages/python/memory-inspection.md)
-* [SQL](programming-languages/sql.md)
+* [Typescript](03-programming-languages/typescript/README.md)
+  * [Javascript](03-programming-languages/typescript/javascript.md)
+  * [Testing](03-programming-languages/typescript/testing.md)
+  * [Angular](03-programming-languages/typescript/angular.md)
+  * [Astro](03-programming-languages/typescript/astro.md)
+* [Go](03-programming-languages/go.md)
+* [Java](03-programming-languages/java/README.md)
+  * [Spring Boot Java](03-programming-languages/java/spring-boot.md)
+* [Python](03-programming-languages/python/README.md)
+  * [Setup](03-programming-languages/python/setup.md)
+  * [Pip and uv](03-programming-languages/python/pip-and-uv.md)
+  * [Python Language Features](03-programming-languages/python/python-language-features.md)
+  * [Memory Inspection](03-programming-languages/python/memory-inspection.md)
+* [SQL](03-programming-languages/sql.md)
 
-## System-Administration
+## 04-System-Administration
 
-* [Podman](system-administration/podman.md)
-* [Nginx setup](system-administration/nginx.md)
-* [Firewall](system-administration/firewall.md)
-* [Postgesql](system-administration/postgesql-on-linux.md)
-* [Grafana Stack LGTM](system-administration/grafana-stack.md)
-* [Elastic Search ELK Stack](system-administration/elastic-search-elk-stack.md)
+* [Podman](04-system-administration/podman.md)
+* [Nginx setup](04-system-administration/nginx.md)
+* [Firewall](04-system-administration/firewall.md)
+* [Postgesql](04-system-administration/postgesql-on-linux.md)
+* [Grafana Stack LGTM](04-system-administration/grafana-stack.md)
+* [Elastic Search ELK Stack](04-system-administration/elastic-search-elk-stack.md)
 
-## Linux
+## 05-Linux
 
-* [Linux Workflow](linux/linux-workflow.md)
-* [Linux IP](linux/linux-ip.md)
-* [Linux Commands](linux/linux-commands.md)
-* [Linux Install Packages](linux/install-packages.md)
-* [Linux Environment Variables](linux/linux-environment-variables.md)
-* [Linux Clean Storage](linux/page-2.md)
-* [Linux Systemd & Journal](linux/linux-journal.md)
-* [Linux Folders & Logs](linux/linux-folders-and-logs.md)
-* [Linux Users, Groups, Permissions](linux/linux-users.md)
-* [Linux Scan Devices on Network](linux/network-devices.md)
-* [Linux Proxy](linux/linux-proxy.md)
-* [Linux Distros](linux/page-1.md)
-* [Other Linux Topics](linux/other/README.md)
-  * [Linux Power Settings](linux/other/suspend-mode.md)
-  * [Linux Virtualization](linux/other/virtualization.md)
-* [Linux Process Memory](linux/linux-process-memory.md)
-* [Linux Encryption Secrets Passwords](linux/linux-encryption-secrets-passwords.md)
+* [Linux Workflow](05-linux/linux-workflow.md)
+* [Linux IP](05-linux/linux-ip.md)
+* [Linux Commands](05-linux/linux-commands.md)
+* [Linux Install Packages](05-linux/install-packages.md)
+* [Linux Environment Variables](05-linux/linux-environment-variables.md)
+* [Linux Clean Storage](05-linux/page-2.md)
+* [Linux Systemd & Journal](05-linux/linux-journal.md)
+* [Linux Folders & Logs](05-linux/linux-folders-and-logs.md)
+* [Linux Users, Groups, Permissions](05-linux/linux-users.md)
+* [Linux Scan Devices on Network](05-linux/network-devices.md)
+* [Linux Proxy](05-linux/linux-proxy.md)
+* [Linux Distros](05-linux/page-1.md)
+* [Other Linux Topics](05-linux/other/README.md)
+  * [Linux Power Settings](05-linux/other/suspend-mode.md)
+  * [Linux Virtualization](05-linux/other/virtualization.md)
+* [Linux Process Memory](05-linux/linux-process-memory.md)
+* [Linux Encryption Secrets Passwords](05-linux/linux-encryption-secrets-passwords.md)
 
-## Reverse-Engineering
+## 06-Reverse-Engineering
 
-* [Ghidra](reverse-engineering/ghidra.md)
+* [Ghidra](06-reverse-engineering/ghidra.md)
 
-## Networking
+## 07-Networking
 
-* [Networking](networking/networking.md)
-* [ISO Model vs TCP/IP Model](networking/iso-model-vs-tcp-ip-model.md)
-* [Simulation Emulation](networking/simulation-emulation.md)
-* [VPN](networking/vpn.md)
-* [Firewall](networking/firewall.md)
-* [Proxies](networking/proxies.md)
-* [DHCP NAT](networking/dhcp-nat.md)
-* [Hardware](networking/hardware.md)
-* [Email (SMTP / IMAP)](networking/email-smtp-imap.md)
-* [DNS](networking/dns.md)
+* [Networking](07-networking/networking.md)
+* [ISO Model vs TCP/IP Model](07-networking/iso-model-vs-tcp-ip-model.md)
+* [Simulation Emulation](07-networking/simulation-emulation.md)
+* [VPN](07-networking/vpn.md)
+* [Firewall](07-networking/firewall.md)
+* [Proxies](07-networking/proxies.md)
+* [DHCP NAT](07-networking/dhcp-nat.md)
+* [Hardware](07-networking/hardware.md)
+* [Email (SMTP / IMAP)](07-networking/email-smtp-imap.md)
+* [DNS](07-networking/dns.md)
 
-## Terminal CLI Tools
+## 08-Terminal CLI Tools
 
-* [git](terminal-cli-tools/git.md)
-* [Tmux](terminal-cli-tools/tmux.md)
-* [SSH](terminal-cli-tools/ssh.md)
-* [vim](terminal-cli-tools/vim.md)
-* [nmap](terminal-cli-tools/nmap.md)
-* [Bash](terminal-cli-tools/bash.md)
-* [CLIs](terminal-cli-tools/clis/README.md)
-  * [Chmod](terminal-cli-tools/clis/chmod.md)
-  * [find & grep](terminal-cli-tools/clis/find.md)
-  * [zip and tar](terminal-cli-tools/clis/tar-zip.md)
-  * [scp rsync](terminal-cli-tools/clis/scp-rsync.md)
-  * [pdf](terminal-cli-tools/clis/pdf.md)
+* [git](08-terminal-cli-tools/git.md)
+* [Tmux](08-terminal-cli-tools/tmux.md)
+* [SSH](08-terminal-cli-tools/ssh.md)
+* [vim](08-terminal-cli-tools/vim.md)
+* [nmap](08-terminal-cli-tools/nmap.md)
+* [Bash](08-terminal-cli-tools/bash.md)
+* [CLIs](08-terminal-cli-tools/clis/README.md)
+  * [Chmod](08-terminal-cli-tools/clis/chmod.md)
+  * [find & grep](08-terminal-cli-tools/clis/find.md)
+  * [zip and tar](08-terminal-cli-tools/clis/tar-zip.md)
+  * [scp rsync](08-terminal-cli-tools/clis/scp-rsync.md)
+  * [pdf](08-terminal-cli-tools/clis/pdf.md)
 
 ## Cloud
 
