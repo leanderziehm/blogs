@@ -64,10 +64,6 @@
 * [Linux Process Memory](05-linux/linux-process-memory.md)
 * [Linux Stats Info](05-linux/linux-stats-info.md)
 
-## Reverse-Engineering
-
-* [Ghidra](reverse-engineering/ghidra.md)
-
 ## 07-Networking
 
 * [Networking](07-networking/networking.md)
@@ -110,58 +106,62 @@
   * [Nextcloud](09-security/self-hosted-software/nextcloud.md)
 * [Authentication vs Authorization](09-security/authentication-vs-authorization.md)
 
-## 10-Cloud
+## 10-Computer-Science-Concepts
 
-* [AWS](10-cloud/aws.md)
-* [Azure](10-cloud/azure.md)
-* [GCP: Google Cloud Platform](10-cloud/google-cloud-platform.md)
-* [Oracle](10-cloud/oracle.md)
-* [Cloudflare](10-cloud/cloudflare.md)
-* [Supabase](10-cloud/supabase.md)
-* [Github Actions](10-cloud/github-actions.md)
-
-## CS-Concepts
-
-* [Databases](cs-concepts/databases.md)
-* [Compilers](cs-concepts/compilers.md)
-* [Errors](cs-concepts/errors.md)
-* [Input Validation](cs-concepts/input-validation.md)
-* [File formats](cs-concepts/file-formats/README.md)
-  * [Makefile](cs-concepts/file-formats/makefile.md)
-  * [YAML](cs-concepts/file-formats/yaml.md)
-  * [JSON](cs-concepts/file-formats/json.md)
-  * [HTML](cs-concepts/file-formats/html.md)
-* [Application Layer Protocolls](cs-concepts/application-layer-protocolls/README.md)
-  * [OpenAPI](cs-concepts/application-layer-protocolls/openapi.md)
-  * [GraphQL](cs-concepts/application-layer-protocolls/graphql.md)
-  * [MIME Media types](cs-concepts/application-layer-protocolls/media-types.md)
-  * [7 HTTP(S)](cs-concepts/application-layer-protocolls/http/README.md)
-    * [HTTP Status Codes](cs-concepts/application-layer-protocolls/http/http-status-codes.md)
-    * [HTTP Methods](cs-concepts/application-layer-protocolls/http/http-methos.md)
-    * [HTTP Headers Security](cs-concepts/application-layer-protocolls/http/http-headers-security.md)
-* [System Design](cs-concepts/system-design/README.md)
-  * [Database](cs-concepts/system-design/database.md)
-  * [Cache](cs-concepts/system-design/cache.md)
-  * [Queue](cs-concepts/system-design/queue.md)
-* [Design-Patterns](cs-concepts/design-patterns/README.md)
-  * [Design-Patterns](cs-concepts/design-patterns/design-patterns.md)
-  * [Ports and Adapters](cs-concepts/design-patterns/ports-and-adapters.md)
-* [HCI](cs-concepts/hci/README.md)
-  * [Latency Perception](cs-concepts/hci/latency-perception.md)
-* [Datascience](cs-concepts/datascience/README.md)
-  * [Coding](cs-concepts/datascience/coding.md)
-  * [Excel](cs-concepts/datascience/excel.md)
-  * [Forcasting](cs-concepts/datascience/forcasting.md)
-  * [DuckDB](cs-concepts/datascience/duckdb.md)
-  * [ETL](cs-concepts/datascience/etl.md)
-  * [Databricks](cs-concepts/datascience/databricks.md)
-  * [Data-Science-Tools](cs-concepts/datascience/data-science-tools.md)
-  * [BI Dashboard Tools](cs-concepts/datascience/bi-dashboard-tools.md)
-
-## Problem Solving
-
-* [Problem Solving](problem-solving/problem-solving.md)
-* [Reasoning](problem-solving/reasoning.md)
+* [Cloud](10-computer-science-concepts/cloud/README.md)
+  * [AWS](10-computer-science-concepts/cloud/aws.md)
+  * [Azure](10-computer-science-concepts/cloud/azure.md)
+  * [GCP: Google Cloud Platform](10-computer-science-concepts/cloud/google-cloud-platform.md)
+  * [Oracle](10-computer-science-concepts/cloud/oracle.md)
+  * [Cloudflare](10-computer-science-concepts/cloud/cloudflare.md)
+  * [Supabase](10-computer-science-concepts/cloud/supabase.md)
+  * [Github Actions](10-computer-science-concepts/cloud/github-actions.md)
+* [Eponymous Laws](10-computer-science-concepts/eponymous-laws.md)
+* [Databases](10-computer-science-concepts/databases.md)
+* [Compilers](10-computer-science-concepts/compilers.md)
+* [Errors](10-computer-science-concepts/errors.md)
+* [Input Validation](10-computer-science-concepts/input-validation.md)
+* [File formats](10-computer-science-concepts/file-formats/README.md)
+  * [Makefile](10-computer-science-concepts/file-formats/makefile.md)
+  * [YAML](10-computer-science-concepts/file-formats/yaml.md)
+  * [JSON](10-computer-science-concepts/file-formats/json.md)
+  * [HTML](10-computer-science-concepts/file-formats/html.md)
+* [Application Layer Protocolls](10-computer-science-concepts/application-layer-protocolls/README.md)
+  * [OpenAPI](10-computer-science-concepts/application-layer-protocolls/openapi.md)
+  * [GraphQL](10-computer-science-concepts/application-layer-protocolls/graphql.md)
+  * [MIME Media types](10-computer-science-concepts/application-layer-protocolls/media-types.md)
+  * [7 HTTP(S)](10-computer-science-concepts/application-layer-protocolls/http/README.md)
+    * [HTTP Status Codes](10-computer-science-concepts/application-layer-protocolls/http/http-status-codes.md)
+    * [HTTP Methods](10-computer-science-concepts/application-layer-protocolls/http/http-methos.md)
+    * [HTTP Headers Security](10-computer-science-concepts/application-layer-protocolls/http/http-headers-security.md)
+* [System Design](10-computer-science-concepts/system-design/README.md)
+  * [Database](10-computer-science-concepts/system-design/database.md)
+  * [Cache](10-computer-science-concepts/system-design/cache.md)
+  * [Queue](10-computer-science-concepts/system-design/queue.md)
+* [Design-Patterns](10-computer-science-concepts/design-patterns/README.md)
+  * [Design-Patterns](10-computer-science-concepts/design-patterns/design-patterns.md)
+  * [Ports and Adapters](10-computer-science-concepts/design-patterns/ports-and-adapters.md)
+* [HCI](10-computer-science-concepts/hci/README.md)
+  * [Latency Perception](10-computer-science-concepts/hci/latency-perception.md)
+* [Datascience](10-computer-science-concepts/datascience/README.md)
+  * [Coding](10-computer-science-concepts/datascience/coding.md)
+  * [Excel](10-computer-science-concepts/datascience/excel.md)
+  * [Forcasting](10-computer-science-concepts/datascience/forcasting.md)
+  * [DuckDB](10-computer-science-concepts/datascience/duckdb.md)
+  * [ETL](10-computer-science-concepts/datascience/etl.md)
+  * [Databricks](10-computer-science-concepts/datascience/databricks.md)
+  * [Data-Science-Tools](10-computer-science-concepts/datascience/data-science-tools.md)
+  * [BI Dashboard Tools](10-computer-science-concepts/datascience/bi-dashboard-tools.md)
+* [AI](10-computer-science-concepts/ai/README.md)
+  * [AI LLMs](10-computer-science-concepts/ai/ai-llms.md)
+  * [Voice & Video](10-computer-science-concepts/ai/voice-and-video.md)
+  * [Free AI Code-Agents](10-computer-science-concepts/ai/ai-web-app-creators.md)
+* [OS](10-computer-science-concepts/os/README.md)
+  * [Windows](10-computer-science-concepts/os/windows.md)
+  * [Android](10-computer-science-concepts/os/android/README.md)
+    * [Android App: Termux](10-computer-science-concepts/os/android/android-app-termux.md)
+* [Reverse-Engineering](10-computer-science-concepts/reverse-engineering/README.md)
+  * [Ghidra](10-computer-science-concepts/reverse-engineering/ghidra.md)
 
 ## World-Knowlege
 
@@ -174,23 +174,11 @@
   * [Chinese](world-knowlege/languages/chinese.md)
 * [Immune System](world-knowlege/immune-system.md)
 * [Historic Tool Invention](world-knowlege/historic-tool-invention.md)
+* [Skills](world-knowlege/skills/README.md)
+  * [Reasoning](world-knowlege/skills/reasoning.md)
+  * [Problem Solving](world-knowlege/skills/problem-solving.md)
 
 ## Personal
 
 * [Keyboard Shortcuts](personal/keyboard-shortcuts.md)
-
-## AI
-
-* [Free AI Code-Agents](ai/ai-web-app-creators.md)
-* [Voice & Video](ai/voice-and-video.md)
-* [AI LLMs](ai/ai-llms.md)
-
-## OS
-
-* [Windows](os/windows.md)
-* [Android](os/android/README.md)
-  * [Android App: Termux](os/android/android-app-termux.md)
-
-## Eponymous-Laws
-
-* [Eponymous Laws](eponymous-laws/eponymous-laws.md)
+* [Inventory](personal/inventory.md)
