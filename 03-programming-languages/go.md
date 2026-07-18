@@ -3,5 +3,9 @@
 install go then:
 
 ```
-go mod init x
+ go mod init module-name
+```
+
+```
+go get "github.com/lib/pq"
 ```

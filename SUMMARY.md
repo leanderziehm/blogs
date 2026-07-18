@@ -40,8 +40,7 @@
 * [Nginx setup](04-system-administration/nginx.md)
 * [Firewall](04-system-administration/firewall.md)
 * [Postgesql](04-system-administration/postgesql-on-linux.md)
-* [Grafana Stack LGTM](04-system-administration/grafana-stack.md)
-* [Elastic Search ELK Stack](04-system-administration/elastic-search-elk-stack.md)
+* [Cloud](04-system-administration/cloud.md)
 
 ## 05-Linux
 
@@ -108,14 +107,6 @@
 
 ## 10-Computer-Science-Concepts
 
-* [Cloud](10-computer-science-concepts/cloud/README.md)
-  * [AWS](10-computer-science-concepts/cloud/aws.md)
-  * [Azure](10-computer-science-concepts/cloud/azure.md)
-  * [GCP: Google Cloud Platform](10-computer-science-concepts/cloud/google-cloud-platform.md)
-  * [Oracle](10-computer-science-concepts/cloud/oracle.md)
-  * [Cloudflare](10-computer-science-concepts/cloud/cloudflare.md)
-  * [Supabase](10-computer-science-concepts/cloud/supabase.md)
-  * [Github Actions](10-computer-science-concepts/cloud/github-actions.md)
 * [Eponymous Laws](10-computer-science-concepts/eponymous-laws.md)
 * [Databases](10-computer-science-concepts/databases.md)
 * [Compilers](10-computer-science-concepts/compilers.md)

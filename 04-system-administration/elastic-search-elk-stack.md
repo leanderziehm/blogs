@@ -1,2 +1,0 @@
-# Elastic Search ELK Stack
-
