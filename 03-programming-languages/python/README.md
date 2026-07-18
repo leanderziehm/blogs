@@ -112,7 +112,16 @@ summary_df
 all:
 	[ ! -d "venv" ] && python -m venv venv && venv/bin/pip install -r requirements.txt; set -a && . ./.env && set +a && venv/bin/uvicorn main:app --reload
 
-
 run:
 	uvicorn main:app --port 8803
+
+uv_run:
+	uv run uvicorn main:app --port 8803
+
+uv_req:
+	uv pip freeze > requirements.txt
+
+uv_req_no_v:
+	uv pip freeze | cut -d= -f1 > requirements.txt
+
 ```

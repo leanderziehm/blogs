@@ -4,10 +4,6 @@
 ping -i 0.01 10.0.0.2
 ```
 
-
-
-
-
 ```
 sudo sysctl -w net.ipv4.ip_forward=1
 ```
@@ -17,13 +13,9 @@ echo "net.ipv4.ip_forward=1" | sudo tee /etc/sysctl.d/99-hotspot.conf
 sudo sysctl --system
 ```
 
-
-
 ```
 sudo iptables -t nat -A POSTROUTING -o UPSTREAM_IFACE -j MASQUERADE
 ```
-
-
 
 ```
 #!/usr/bin/env bash
@@ -41,12 +33,6 @@ sudo sysctl --system
 
 echo "IPv6 preference enabled."
 ```
-
-
-
-
-
-
 
 On PC A:
 
@@ -68,13 +54,7 @@ Test:
 ping 192.168.10.2
 ```
 
-
-
-
-
 ## Mininet NAT
-
-
 
 forward:
 
@@ -96,8 +76,6 @@ confim:
 sudo ip addr add 10.0.2.254/24 dev s1-eth1
 ```
 
-
-
 nat:
 
 ```
@@ -108,3 +86,20 @@ sudo iptables -t nat -A POSTROUTING -s 10.0.2.0/24 -o wlp4s0 -j MASQUERADE
 sudo iptables -A FORWARD -i wlp4s0 -o s1-eth1 -j ACCEPT
 sudo iptables -A FORWARD -o wlp4s0 -i s1-eth1 -j ACCEPT
 ```
+
+
+
+
+
+
+
+ip a
+
+
+
+ip a br
+
+ip route
+
+
+

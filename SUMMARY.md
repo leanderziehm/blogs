@@ -47,6 +47,7 @@
 
 * [Linux Users, Groups, Permissions](05-linux/linux-users.md)
 * [Linux Encryption Secrets Passwords](05-linux/linux-encryption-secrets-passwords.md)
+* [Linux Virtualization](05-linux/virtualization.md)
 * [Linux Workflow](05-linux/linux-workflow.md)
 * [Linux IP](05-linux/linux-ip.md)
 * [Linux Commands](05-linux/linux-commands.md)
@@ -60,7 +61,6 @@
 * [Linux Distros](05-linux/page-1.md)
 * [Other Linux Topics](05-linux/other/README.md)
   * [Linux Power Settings](05-linux/other/suspend-mode.md)
-  * [Linux Virtualization](05-linux/other/virtualization.md)
 * [Linux Process Memory](05-linux/linux-process-memory.md)
 * [Linux Stats Info](05-linux/linux-stats-info.md)
 
